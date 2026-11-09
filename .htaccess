@@ -1,0 +1,29 @@
+# Upload this whole folder into public_html (or any sub-folder of it).
+Options -Indexes -MultiViews
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Private code and data must never be served
+    RewriteRule ^(config|data|pages|src|templates|docs)(/|$) - [F,L]
+    RewriteRule ^[^/]+\.md$ - [F,L]
+
+    # Real files (assets, images ...) are served as they are
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteRule ^ - [L]
+
+    # Everything else goes through the front controller
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+# Dotfiles and Markdown notes are never public
+<FilesMatch "^\.|\.md$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</FilesMatch>

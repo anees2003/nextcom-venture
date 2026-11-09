@@ -7,12 +7,12 @@ rebranded from one config file. See `AUDIT.md` (what was found) and `PLAN.md` (w
 ## Requirements
 
 - PHP 8.1 or newer (no framework, no Composer packages)
-- Apache with `mod_rewrite` (the `public/.htaccess` is included), or any server that sends unknown URLs to `public/index.php`
+- Apache with `mod_rewrite` (the root `.htaccess` is included), or any server that sends unknown URLs to `index.php`
 
 ## Run locally
 
 ```bash
-php -S localhost:8000 -t public public/index.php
+php -S localhost:8000 index.php
 ```
 
 Then open http://localhost:8000.
@@ -20,7 +20,8 @@ Then open http://localhost:8000.
 ## Layout
 
 ```
-public/            web root: index.php (router), .htaccess, assets/, images/, uploads/, favicon.png
+index.php, .htaccess   router and Apache rules (the project root is the web root)
+assets/, images/, uploads/, favicon.png   public files
 config/brand.php   brand name, contact details, social links, tracking IDs (single source of truth)
 config/routes.php  page routes with title, description and active nav item
 config/redirects.php  old *.html URLs -> clean URLs (301)
@@ -33,11 +34,15 @@ src/helpers.php    brand(), url(), asset(), site_url(), render() ...
 docs/MISSING-ASSETS.md   files the original mirror failed to download
 ```
 
-## Deploying
+## Deploying (cPanel / shared hosting)
 
-- Point the web root at `public/`. Keep `config/`, `templates/`, `pages/`, `data/`, `src/` outside it (or deny access).
-- Nginx: `try_files $uri $uri/ /index.php?$query_string;`
-- Set `site_url` in `config/brand.php` to the real domain (used for canonical URLs, sitemap and JSON-LD).
+1. Upload the **contents of this folder** into `public_html` (or a sub-folder such as `public_html/site`).
+2. Make sure `.htaccess` was uploaded too (it is a hidden file; enable "show hidden files" in File Manager).
+3. Choose PHP 8.1 or newer in cPanel (MultiPHP Manager).
+4. Set `site_url` in `config/brand.php` to the real domain.
+
+`config/`, `data/`, `pages/`, `src/`, `templates/`, `docs/` and the `.md` files are blocked from the browser by `.htaccess`.
+Nginx: `try_files $uri /index.php?$query_string;` and deny those folders.
 
 ## Things to know
 
@@ -45,4 +50,4 @@ docs/MISSING-ASSETS.md   files the original mirror failed to download
   They no longer post to the old owner's server.
 - **Tracking is off.** Google Analytics, Meta Pixel, site verification and the Zoho chat widget IDs belonged to
   the previous owner and are empty in `config/brand.php`. Add your own there.
-- Tested at the web root only; sub-folder installs are supported by the helpers but not tested.
+- Tested with PHP's built-in server at the web root. The `.htaccess` rules and sub-folder installs were not tested on real Apache.

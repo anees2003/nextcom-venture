@@ -42,7 +42,7 @@ function url(string $route = ''): string
     return base_path() . '/' . ltrim($route, '/');
 }
 
-/** Path-only URL of a file under public/. */
+/** Path-only URL of a file in the web root. */
 function asset(string $path): string
 {
     return base_path() . '/' . ltrim($path, '/');

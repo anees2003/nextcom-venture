@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-define('ROOT', dirname(__DIR__));
+define('ROOT', __DIR__);
 require ROOT . '/src/helpers.php';
 
 // ---- request path (relative to the app's base path) -------------------------

@@ -42,12 +42,9 @@ Plain PHP 8.2+, no framework, so it runs on cheap shared hosting.
 
 ```
 /
-├── public/                  # web root
-│   ├── index.php            # front controller / router
-│   ├── .htaccess            # clean URLs, security headers, caching
-│   ├── assets/              # css, js, fonts, images (moved from mirror)
-│   ├── robots.txt
-│   └── sitemap.php          # generated sitemap
+├── index.php                # front controller / router (project root = public_html)
+├── .htaccess                # clean URLs, blocks private folders
+├── assets/ images/ uploads/ favicon.png   # public files
 ├── config/
 │   ├── brand.php            # SINGLE SOURCE for name, contact, social, analytics
 │   └── routes.php           # url => page file, title, description
@@ -79,7 +76,7 @@ Plain PHP 8.2+, no framework, so it runs on cheap shared hosting.
 - [x] Old-domain absolute URLs replaced by `url()`, `asset()` and `site_url()` helpers; form actions no longer point at the old owner's server
 
 ### Phase 2: PHP skeleton (done, one item deferred)
-- [x] Folder structure and `.htaccess` (clean URLs such as `/about-us`)
+- [x] Folder structure and `.htaccess` (clean URLs such as `/about-us`). Layout is flat so the whole folder can be uploaded into `public_html`; private folders are denied by `.htaccess`.
 - [x] Shared head, header/navbar, footer, supplier modal and scripts extracted into `templates/layout/*` (nav "active" item comes from `config/routes.php`)
 - [x] 27 page bodies in `pages/*.php`, routes in `config/routes.php`
 - [x] Blog: 14 posts and the listing are data-driven (`data/blogs.php`); the 5 listing pages (3 posts each) share one template and pagination partial; the repeated 34 KB "Featured Articles" sidebar is generated from 3 featured slugs
