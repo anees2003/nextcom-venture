@@ -20,7 +20,7 @@
                 <div class="col-md-6">
                     <div class="our-story-content">
                         <div class="deflt-p">
-                            <p> <span>Nextcom Automation</span> focuses on helping businesses build a profitable presence in the digital world and manage their cash flows using advanced business techniques. We have been in this industry for several years and know how to bring the best returns on your investment by operating the E-Commerce industry.</p>
+                            <p> <span><?= e(brand('name')) ?></span> focuses on helping businesses build a profitable presence in the digital world and manage their cash flows using advanced business techniques. We have been in this industry for several years and know how to bring the best returns on your investment by operating the E-Commerce industry.</p>
                             <p>Everyone wants to get the best ROI on their investment and we guide you towards achieving it in today’s competitive E-Commerce industry. We have been doing this for many businesses like yours for many years and also welcome you to contact us today and build an online presence that would bring revenue.</p>
                             <p>You can always expect to have the best management, distribution warehousing, and logistic services to stand out among your competitors.</p>
                         </div>
@@ -42,7 +42,7 @@
                             <p>Our primary <span>objective</span> is always to keep our clients satisfied with the best services possible. We have done this for many online stores and also encourage you to join and reach out to your potential customers.</p>
                             <p>What makes us unique is our commitment to helping you reach your goals faster than ever before. It does not matter if you are new to this industry or already have an established brand, you can always count on us to see exponential growth in your sales and revenue. All you need to do is share your ideas and our team will take care of the rest.</p>
                             <p>We offer a vast range of services to take your online E-Commerce business to the next level. We are always open to new ideas and implement innovative strategies for growth. From providing automated solutions to coming up with brand marketing strategies, we have always got the best solutions for you.</p>
-                            <p>Nextcom Automation has a track record and history of assisting businesses to unlock their full potential and have steady growth. Now it’s your time to partner with Nextcom Automation and see the growth for yourself.</p>
+                            <p><?= e(brand('name')) ?> has a track record and history of assisting businesses to unlock their full potential and have steady growth. Now it’s your time to partner with <?= e(brand('name')) ?> and see the growth for yourself.</p>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
         <div class="container">
             <div class="why-choose all-default-ccontent" data-aos="fade-down" data-aos-duration="1500">
                 <div class="defalt-heading">
-                    <h2>Why Choose <span>Nextcom Automation?</span></h2>
+                    <h2>Why Choose <span><?= e(brand('name')) ?>?</span></h2>
                 </div>
             </div>
         </div>
@@ -86,7 +86,7 @@
                         </div>
                     </div>
                     <div class="why-choose-single-div">
-                        <h4> Connect with NextCom Automation:</h4>
+                        <h4> Connect with <?= e(brand('name')) ?>:</h4>
                         <div class="deflt-p">
                             <p>Contact Us now to learn more about our services and how we help brands grow in today’s highly competitive yet profitable E-Commerce market.</p>
                         </div>

@@ -15,12 +15,12 @@
                             <div class="accordion-item">
                                 <h4 class="accordion-header" id="headingOne">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Who is Nextcom Automation?
+                                        Who is <?= e(brand('name')) ?>?
                                     </button>
                                 </h4>
                                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Experience the future of e-commerce with Nextcom Automation's cutting-edge solutions. Our Hybrid Automation Model empowers you to reap the benefits of passive income while we take care of the heavy lifting. From Amazon to Walmart, Shopify DS to TikTok Shop and more, our tailored services cater to your specific needs. Trust Nextcom Automation to revolutionize your e-commerce journey and propel your business to unparalleled success.
+                                        Experience the future of e-commerce with <?= e(brand('name')) ?>'s cutting-edge solutions. Our Hybrid Automation Model empowers you to reap the benefits of passive income while we take care of the heavy lifting. From Amazon to Walmart, Shopify DS to TikTok Shop and more, our tailored services cater to your specific needs. Trust <?= e(brand('name')) ?> to revolutionize your e-commerce journey and propel your business to unparalleled success.
                                     </div>
                                 </div>
                             </div>
@@ -172,22 +172,22 @@
                         <div class="row">
                             <div class="col-md-3 col-6">
                                 <div class="success-img1 successs1">
-                                    <img class="img-fluid" src="<?= asset('images/screen1.jpg') ?>" alt="Nextcom Automation" title="Nextcom Automation">
+                                    <img class="img-fluid" src="<?= asset('images/screen1.jpg') ?>" alt="<?= e(brand('name')) ?>" title="<?= e(brand('name')) ?>">
                                 </div>
                             </div>
                             <div class="col-md-3 col-6">
                                 <div class="success-img1 successs2">
-                                    <img class="img-fluid" src="<?= asset('images/screen2.jpg') ?>" alt="Nextcom Automation" title="Nextcom Automation">
+                                    <img class="img-fluid" src="<?= asset('images/screen2.jpg') ?>" alt="<?= e(brand('name')) ?>" title="<?= e(brand('name')) ?>">
                                 </div>
                             </div>
                             <div class="col-md-3 col-6">
                                 <div class="success-img1 successs3">
-                                    <img class="img-fluid" src="<?= asset('images/screen3.jpg') ?>" alt="Nextcom Automation" title="Nextcom Automation">
+                                    <img class="img-fluid" src="<?= asset('images/screen3.jpg') ?>" alt="<?= e(brand('name')) ?>" title="<?= e(brand('name')) ?>">
                                 </div>
                             </div>
                             <div class="col-md-3 col-6">
                                 <div class="success-img1 successs3">
-                                    <img class="img-fluid" src="<?= asset('images/screen4.jpg') ?>" alt="Nextcom Automation" title="Nextcom Automation">
+                                    <img class="img-fluid" src="<?= asset('images/screen4.jpg') ?>" alt="<?= e(brand('name')) ?>" title="<?= e(brand('name')) ?>">
                                 </div>
                             </div>
                         </div>
@@ -196,17 +196,17 @@
                         <div class="row">
                             <div class="col-md-4 col-6">
                                 <div class="success-img1 successs1">
-                                    <img class="img-fluid" src="<?= asset('images/shopify1.jpg') ?>" alt="Nextcom Automation" title="Nextcom Automation">
+                                    <img class="img-fluid" src="<?= asset('images/shopify1.jpg') ?>" alt="<?= e(brand('name')) ?>" title="<?= e(brand('name')) ?>">
                                 </div>
                             </div>
                             <div class="col-md-4 col-6">
                                 <div class="success-img1 successs3">
-                                    <img class="img-fluid" src="<?= asset('images/shopify2.jpg') ?>" alt="Nextcom Automation" title="Nextcom Automation">
+                                    <img class="img-fluid" src="<?= asset('images/shopify2.jpg') ?>" alt="<?= e(brand('name')) ?>" title="<?= e(brand('name')) ?>">
                                 </div>
                             </div>
                             <div class="col-md-4 col-6">
                                 <div class="success-img1 successs3">
-                                    <img class="img-fluid" src="<?= asset('images/shopify3.jpg') ?>" alt="Nextcom Automation" title="Nextcom Automation">
+                                    <img class="img-fluid" src="<?= asset('images/shopify3.jpg') ?>" alt="<?= e(brand('name')) ?>" title="<?= e(brand('name')) ?>">
                                 </div>
                             </div>
                         </div>
@@ -215,22 +215,22 @@
                         <div class="row">
                             <div class="col-md-3 col-6">
                                 <div class="success-img1 successs1">
-                                    <img class="img-fluid" src="<?= asset('images/tiktok1.jpg') ?>" alt="Nextcom Automation" title="Nextcom Automation">
+                                    <img class="img-fluid" src="<?= asset('images/tiktok1.jpg') ?>" alt="<?= e(brand('name')) ?>" title="<?= e(brand('name')) ?>">
                                 </div>
                             </div>
                             <div class="col-md-3 col-6">
                                 <div class="success-img1 successs2">
-                                    <img class="img-fluid" src="<?= asset('images/tiktok2.jpg') ?>" alt="Nextcom Automation" title="Nextcom Automation">
+                                    <img class="img-fluid" src="<?= asset('images/tiktok2.jpg') ?>" alt="<?= e(brand('name')) ?>" title="<?= e(brand('name')) ?>">
                                 </div>
                             </div>
                             <div class="col-md-3 col-6">
                                 <div class="success-img1 successs3">
-                                    <img class="img-fluid" src="<?= asset('images/tiktok3.jpg') ?>" alt="Nextcom Automation" title="Nextcom Automation">
+                                    <img class="img-fluid" src="<?= asset('images/tiktok3.jpg') ?>" alt="<?= e(brand('name')) ?>" title="<?= e(brand('name')) ?>">
                                 </div>
                             </div>
                             <div class="col-md-3 col-6">
                                 <div class="success-img1 successs3">
-                                    <img class="img-fluid" src="<?= asset('images/tiktok4.jpg') ?>" alt="Nextcom Automation" title="Nextcom Automation">
+                                    <img class="img-fluid" src="<?= asset('images/tiktok4.jpg') ?>" alt="<?= e(brand('name')) ?>" title="<?= e(brand('name')) ?>">
                                 </div>
                             </div>
                         </div>
@@ -239,22 +239,22 @@
                         <div class="row">
                             <div class="col-md-3 col-6">
                                 <div class="success-img1 successs1">
-                                    <img class="img-fluid" src="<?= asset('images/w11.jpg') ?>" alt="Nextcom Automation" title="Nextcom Automation">
+                                    <img class="img-fluid" src="<?= asset('images/w11.jpg') ?>" alt="<?= e(brand('name')) ?>" title="<?= e(brand('name')) ?>">
                                 </div>
                             </div>
                             <div class="col-md-3 col-6">
                                 <div class="success-img1 successs2">
-                                    <img class="img-fluid" src="<?= asset('images/w2.jpg') ?>" alt="Nextcom Automation" title="Nextcom Automation">
+                                    <img class="img-fluid" src="<?= asset('images/w2.jpg') ?>" alt="<?= e(brand('name')) ?>" title="<?= e(brand('name')) ?>">
                                 </div>
                             </div>
                             <div class="col-md-3 col-6">
                                 <div class="success-img1 successs2">
-                                    <img class="img-fluid" src="<?= asset('images/w3.jpg') ?>" alt="Nextcom Automation" title="Nextcom Automation">
+                                    <img class="img-fluid" src="<?= asset('images/w3.jpg') ?>" alt="<?= e(brand('name')) ?>" title="<?= e(brand('name')) ?>">
                                 </div>
                             </div>
                             <div class="col-md-3 col-6">
                                 <div class="success-img1 successs2">
-                                    <img class="img-fluid" src="<?= asset('images/w4.jpg') ?>" alt="Nextcom Automation" title="Nextcom Automation">
+                                    <img class="img-fluid" src="<?= asset('images/w4.jpg') ?>" alt="<?= e(brand('name')) ?>" title="<?= e(brand('name')) ?>">
                                 </div>
                             </div>
                         </div>
@@ -713,13 +713,13 @@
                                             <div class="col-md-12">
                                                 <div class="form-group check-agree-c">
                                                     <label class="agree"><input type="checkbox" >
-                                                    <span>I agree to receive transactional SMS from Nextcom Automation related to my inquiry (sales updates, order status, customer support). Message frequency varies. Message & data rates may apply. Reply STOP to opt out, HELP for help. View our <a href="<?= url('terms-and-services') ?>">Terms and Conditions</a> and <a href="<?= url('privacy-policy') ?>">Privacy Policy</a>.</span></label>
+                                                    <span>I agree to receive transactional SMS from <?= e(brand('name')) ?> related to my inquiry (sales updates, order status, customer support). Message frequency varies. Message & data rates may apply. Reply STOP to opt out, HELP for help. View our <a href="<?= url('terms-and-services') ?>">Terms and Conditions</a> and <a href="<?= url('privacy-policy') ?>">Privacy Policy</a>.</span></label>
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
                                                 <div class="form-group check-agree-c">
                                                     <label class="agree"><input type="checkbox" >
-                                                        <span><span>I agree to receive marketing & promotional SMS from Nextcom Automation (offers, new services, deals). Message frequency varies. Message & data rates may apply. Reply STOP to opt out, HELP for help. View our <a href="<?= url('terms-and-services') ?>">Terms and Conditions</a> and <a href="<?= url('privacy-policy') ?>">Privacy Policy</a>.</span></span></label>
+                                                        <span><span>I agree to receive marketing & promotional SMS from <?= e(brand('name')) ?> (offers, new services, deals). Message frequency varies. Message & data rates may apply. Reply STOP to opt out, HELP for help. View our <a href="<?= url('terms-and-services') ?>">Terms and Conditions</a> and <a href="<?= url('privacy-policy') ?>">Privacy Policy</a>.</span></span></label>
                                                 </div>
                                             </div>
                                         </div>

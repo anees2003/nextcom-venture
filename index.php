@@ -19,8 +19,8 @@ if ($path === 'index.php') {
     $path = '';
 }
 
-$routes = require ROOT . '/config/routes.php';
-$blogs = require ROOT . '/data/blogs.php';
+$routes = brandify(require ROOT . '/config/routes.php');
+$blogs = brandify(require ROOT . '/data/blogs.php');
 
 // ---- old *.html URLs -> clean URLs (301) ------------------------------------
 if (str_ends_with($path, '.html')) {

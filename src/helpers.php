@@ -16,6 +16,15 @@ function brand(string $key, mixed $default = ''): mixed
     return $v;
 }
 
+/** Replace the {brand} token in titles/descriptions/blog data (recursively) with the HTML-escaped brand name. */
+function brandify(mixed $v): mixed
+{
+    if (is_array($v)) {
+        return array_map('brandify', $v);
+    }
+    return is_string($v) ? str_replace('{brand}', e(brand('name')), $v) : $v;
+}
+
 /** HTML-escape. */
 function e(mixed $v): string
 {

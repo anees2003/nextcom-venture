@@ -6,8 +6,8 @@
 <h2>Is dropshipping profitable?</h2>
 <p>It is one of the trending models for earning good revenue. The overall success of this business depends on the type of products you offer to customers. The products with the lowest referral fee percentages include appliances, tools, consumer electronics, and automotive products. The overall profit margin through dropshipping on Amazon varies between 10% and 30% (as it incurs referral fees on sales). </p>
 <p> </p>
-<h2>How does it work, and how does Nextcom automation help you excel?</h2>
-<p><strong><a href="<?= url('') ?>" target="_blank" rel="noopener">Nextcom Automation</a></strong> helps you elevate your brand's identity to new heights. It offers an innovative e-commerce solution for your dropshipping project and makes your work easier. With our skilled and talented workers, we revamp your brand and unlock your exponential growth potential. Once a client comes to us, we help them by discussing the project to ensure we tailor it to their needs.</p>
+<h2>How does it work, and how does <?= e(brand('name')) ?> help you excel?</h2>
+<p><strong><a href="<?= url('') ?>" target="_blank" rel="noopener"><?= e(brand('name')) ?></a></strong> helps you elevate your brand's identity to new heights. It offers an innovative e-commerce solution for your dropshipping project and makes your work easier. With our skilled and talented workers, we revamp your brand and unlock your exponential growth potential. Once a client comes to us, we help them by discussing the project to ensure we tailor it to their needs.</p>
 <p>You must be wondering how fluent this process is. Well, we make sure our services are prompt and up-to-date. The dropshipping business model consists of three significant steps. They are as follows:</p>
 <p> </p>
 <h3>1- Set up your selling account:</h3>
@@ -21,7 +21,7 @@
 <p>For better results in your <strong><a href="<?= url('amazon-2-step-dropshipping-automation') ?>">dropshipping business</a></strong>, you need to list the products you are selling on your Amazon account. This helps promote your brand image and improves sales conversion. You also need to keep track of your order completion. As the seller of record, you need to follow through on whether the product is shipped or not because your brand name is on the line. </p>
 <p> </p>
 <h2>Essential tips to make dropshipping the best business model for you:</h2>
-<p>Nextcom automation ensures the implementation of the latest tips and tricks in your business model. This helps your project stand out among the other competitive businesses, giving you better reach to customers and increased return on investment in product sales. Here are the few things you need to focus on:</p>
+<p><?= e(brand('name')) ?> ensures the implementation of the latest tips and tricks in your business model. This helps your project stand out among the other competitive businesses, giving you better reach to customers and increased return on investment in product sales. Here are the few things you need to focus on:</p>
 <p> </p>
 <h3>1- Be the seller of record</h3>
 <p>The most important thing that helps your business succeed is getting ownership of your brand and the product. Even though the supplier would carry the delivery and shipping, you must agree with them regarding the products. The critical points in this are:</p>
@@ -34,7 +34,7 @@
 <p>While promoting your store and the products you sell, create original content, both written and visual, to capture consumers' interest. Add high-quality images, compelling product descriptions, and solid CTAs to convert visitors into customers. </p>
 <p> </p>
 <h3>3- Promote your listing</h3>
-<p>Once you have created a listing on Amazon, we can help you promote it. Nextcom's Nextcom's team ensures you have a solid online presence in the digital marketplace. The main goal is to drive more traffic toward your account for increased sales. We help you do this by utilizing Amazon PPC services and harnessing the potential of organic media channels through email marketing and other services. </p>
+<p>Once you have created a listing on Amazon, we can help you promote it. <?= e(brand('name')) ?>'s team ensures you have a solid online presence in the digital marketplace. The main goal is to drive more traffic toward your account for increased sales. We help you do this by utilizing Amazon PPC services and harnessing the potential of organic media channels through email marketing and other services. </p>
 <p> </p>
 <h3>4- Check samples before delivery.</h3>
 <p>Even though you are not the one handling the shipping and delivery process, it is essential that you know about the quality, design, packaging style, and look of the overall product. The dropshipping model relieves you of managing the second half of the sales, which includes delivery, but that doesn't mean you become oblivious to it. </p>

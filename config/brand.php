@@ -5,7 +5,7 @@
  * Phase 3 (rebrand) = edit this file.
  */
 return [
-    'name' => 'Nextcom Automation',
+    'name' => 'Nextcom Venture',
     'site_url' => 'https://www.nextcomautomation.com',
     'email' => 'info@nextcomautomation.com',
     'phone_display' => '+1 (949) 522 9313',

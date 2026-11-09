@@ -97,7 +97,7 @@ Plain PHP 8.2+, no framework, so it runs on cheap shared hosting.
 - [ ] Recolor images that carry the old palette (banners, icons, SVG logos)
 
 **Name and contact.**
-- [ ] Replace "Nextcom Automation" / "nextcom" (about 107 places in the homepage alone, 50 files) with `brand('name')`
+- [x] Brand name -> **Nextcom Venture** (`brand('name')` in `config/brand.php`). About 980 mentions in 32 files now read the name from config (`{brand}` token in `config/routes.php` and `data/blogs.php`). Left on purpose: **"Nextcom LLC"** in the privacy, terms and refund pages (it is the legal entity name and must be your real company name), blog URL slugs that contain `nextcom-automation` (changing them breaks links and SEO), the e-mail address, domain, social and review-site links, and the logo image, which still shows the old name.
 - [ ] Replace email, phone, WhatsApp links, address and hours with `brand()` values
 - [ ] Replace social links; remove Trustpilot/Sitejabber links unless you own those profiles
 - [ ] New logo (header, footer, popup, `f-logo.svg`, `demo-call-logo.png`), favicon, Open Graph image
