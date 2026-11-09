@@ -76,3 +76,19 @@ Everything below is hard-coded in every page and must be replaced when rebrandin
 5. Upgrade libraries.
 6. Consolidate tracking and add a consent banner.
 7. Compress images and bundle CSS/JS.
+
+## 6. Corrections and extra findings from the migration (Nov 2026)
+
+Found while doing Phases 1-2 (see `PLAN.md`):
+
+- **M3 correction.** Of the "9 missing files", `phone11.png`, `partners2-5.jpg`, `hj-logo.PNG`, `ninge-logo.png` and `fancy-hair.png` were false positives (root-absolute paths or HTML comments). `about_page.css` existed under a hashed name. The real problem is bigger: **25 files that should be images were saved as the site's "Not Found" HTML page** (HTTrack failed to download them). 23 are still referenced by CSS. Full list: `docs/MISSING-ASSETS.md`.
+- **Blog banner lost.** All 14 blog posts pointed their banner `<img>` at `images/BlogsBanner.html` (a failed download).
+- **A 34 KB modal was hidden after the footer** (`contactSupplierModal`) and repeated on every page.
+- **Meta Pixel loader** pointed to a local copy of `fbevents.js` (HTTrack rewrite), so the pixel never loaded from Meta in the mirror.
+- **Forms posted to the live domain** (`https://www.nextcomautomation.com/save_contact/N`), so any data typed into a copy of the site would go to the original owner's server. The new site points forms at its own endpoint.
+- **Blog meta descriptions** contained escaped `<p>` tags in all 14 posts (shown literally in search results). Stripped.
+- **Three different phone numbers**: header/WhatsApp `+1 (949) 522 9313`, footer `tel:` link `13024129375`, JSON-LD `+1 312 680 3651`. All three are now separate keys in `config/brand.php` so they can be made consistent.
+- **Footer review badges** carry the previous owner's Trustpilot business-unit ID (`data-businessunit-id`). Phase 3.
+- **Broken markup** such as `<a href ="terms-and-services.html">` (space before `=`) appeared about 60 times and did not match normal link rewriting.
+- **Size**: the blog "Featured Articles" sidebar embedded the full text of three articles on every post; it is now generated from data.
+
