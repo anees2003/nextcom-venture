@@ -1,0 +1,426 @@
+section.affiliate-why-section.affiliate-all-txt.private-banefit-section {
+    background: unset !important;
+}
+
+section.affiliate-why-section.affiliate-all-txt.private-banefit-section:before {
+    height: 0;
+    width: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.affiliate-all-txt.private-banefit-section .affiliate-why h1 {
+    text-align: left;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.affiliate-all-txt.private-banefit-section .affiliate-why-points {
+    padding: 0;
+}
+
+section.private-process-section {
+    background: linear-gradient(0deg, #0B1400 0%, #90D13D 100%);
+    position: relative;
+    z-index: 1;
+    padding: 80px 0px;
+}
+
+.private-process-h h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Poppin' !important;
+    font-size: 80px;
+}
+
+section.private-pkg-details {
+    position: relative;
+    padding: 120px 0px 250px;
+    background: linear-gradient(0deg, #000 0%, #90D13D 50%, #000000 100%);
+    z-index: 1;
+}
+
+section.private-pkg-details .all-pkg-main-div {
+    background: linear-gradient(0deg, #000000 0%, #90D13D 100%);
+    position: relative;
+    border-radius: 50px;
+    z-index: 1;
+}
+
+section.private-pkg-details .all-pkg-main-div:before {
+    background: linear-gradient(155deg, #000000 0%, #90D13D 100%);
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 33%;
+    z-index: -1;
+    border-radius: 48px;
+}
+
+section.private-pkg-details .all-pkg-main-div .private-pkg-div.private-premium-center {
+    text-align: center;
+}
+
+section.private-pkg-details .all-pkg-main-div .all-pkg-content-div {padding: 100px 30px 50px 30px;}
+
+section.private-pkg-details .all-pkg-main-div .private-pkg-div ul {
+    padding: 0;
+    margin: 0;
+    /* text-align: center; */
+}
+
+section.private-pkg-details .all-pkg-main-div .all-pkg-content-div .private-pkg-div {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+section.private-pkg-details .all-pkg-main-div .private-premium {
+    text-align: center;
+}
+
+section.private-pkg-details .all-pkg-main-div .private-premium h4 {
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppin' !important;
+    padding: 15px 10px;
+    z-index: 1;
+    position: relative;
+    margin: 20px 0px;
+    width: 230px;
+    border-radius: 20px;
+}
+
+section.private-pkg-details .all-pkg-main-div .private-premium h4:before {
+    background: linear-gradient(180deg, #456D10 0%, #90D13D 90%);
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
+    border-radius: 20px;
+}
+
+section.private-pkg-details .all-pkg-main-div .private-premium h4:after {
+    content: '';
+    position: absolute;
+    background: linear-gradient(24deg, #000000 0%, #90D13D 81%);
+    top: 10px;
+    bottom: 0;
+    left: -3px;
+    right: 0;
+    margin: auto;
+    z-index: -2;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+section.private-pkg-details .all-pkg-main-div .private-pkg-div ul li {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0px;
+    line-height: 25px;
+}
+
+section.private-pkg-details .all-pkg-main-div .private-pkg-div ul li.pkg-pricee span {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 20px 10px;
+    border-radius: 15px;
+    width: 230px;
+    /* background: linear-gradient(80deg, #000000 0%, #FF7800 100%); */
+    margin-bottom: 0px;
+}
+
+section.private-pkg-details .all-pkg-main-div .private-pkg-div ul li.pkg-pricee span:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -20px;
+    bottom: 0;
+    margin: auto;
+    background: linear-gradient(80deg, #000000 0%, #90D13D 100%);
+    z-index: -1;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+}
+.private-pkg-txt {
+    max-width: 100%;
+    margin: 0 0 0 auto;
+    text-align: center;
+}
+
+.private-pkg-txt p {
+    color: #858585;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+section.private-pkg-details:before {
+    content: '';
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 80%;
+    height: 220px;
+    background-image: url(../../images/private-pkg.png);
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    z-index: -1;
+}
+.logo-sec .header-top {
+    background: linear-gradient(110deg, #111B06 0%, #7DA649 85%) !important;
+}
+.main-header li.nav-item a.nav-link:hover {
+    background-color: unset;
+    /*background: linear-gradient(180deg, #90D13D 0%, #264006 100%) !important;*/
+}
+
+.main-header li.nav-item.services-inner-page .mega-menu-service-main-box {
+    background: linear-gradient(180deg,#90D13D,#000) !important;
+}
+.affiliate-caption-btn .btn-bnnr a {
+    background: linear-gradient(90deg, #90D13D 0%, #519000 100%) !important;
+    font-size: 20px;
+}
+.abt-banner-caption .abt-text3 span {
+    font-family: 'Poppin' !important;
+    color: #90D13D !important;
+}
+.affiliate-all-txt .affiliate-why h1 span {
+    color: #90D13D !important;
+}
+
+.affiliate-all-txt ul li:before {
+    background: #90D13D !important;
+}
+
+.affiliate-all-txt h2 span {
+    color: #90D13D !important;
+}
+
+.sign-up-content {
+    padding: 0 !important;
+    margin: 60px 0px 120px;
+}
+
+.abt-banner-caption .abt-text3 {
+    text-align: left;
+}
+
+.abt-banner-caption .text23 {
+    margin: 50px 0px;
+    font-size: 16px;
+}
+
+.affiliate-all-txt ul li {
+    font-size: 16px;
+}
+
+.private-banefit-img img.img-fluid {
+    max-width: 85%;
+}
+
+section.private-pkg-details .all-pkg-main-div .private-pkg-div ul li img.img-fluid {
+    max-width: 4%;
+}
+.pkg-btn-btn.amazon-pkg-btnn .btn-bnnr {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    border-radius: 15px;
+    width: 230px;
+    /* background: linear-gradient(80deg, #000000 0%, #FF7800 100%); */
+    margin-bottom: 30px;
+}
+
+.pkg-btn-btn.amazon-pkg-btnn .btn-bnnr a.btn1-main {
+    border-radius: 50px;
+    color: #fff;
+    font-size: 18px;
+    background: linear-gradient(90deg, #90D13D 0%, #519000 100%) !important;
+}
+.main-header li.nav-item a.nav-link:after {
+    background: #90D13D !important;
+}
+
+@media (max-width: 767px) {
+    .affiliate-all-txt.private-banefit-section .affiliate-why h1 {
+        margin-bottom: 20px !important;
+    }
+    
+    .private-banefit-img {
+        display: none;
+    }
+    
+    .private-process-h h2 {
+        font-size: 30px !important;
+        margin-bottom: 30px !important;
+    }
+    
+    section.private-process-section {
+        padding: 30px 0px !important;
+    }
+    
+    .fba-brand-hunting.fba-brand, .fba-order-management.fba-order {
+        padding: 30px 0px !important;
+    }
+    
+    .sign-up-content {
+        margin: 30px 0px !important;
+    }
+    
+    .fba-product-listing.fba-product, .fba-account-management.fba-account {
+        padding: 30px 0px !important;
+    }
+    
+    section.private-pkg-details {
+        padding: 30px 0px !important;
+    }
+    
+    section.private-pkg-details .all-pkg-main-div .all-pkg-content-div {
+        padding: 30px 0px !important;
+    }
+    
+    section.private-pkg-details .all-pkg-main-div:before {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    
+    section.private-pkg-details .all-pkg-main-div .private-pkg-div ul li {
+        font-size: 12px !important;
+        margin: 5px 0px !important;
+        text-align: center;
+        line-height: 20px;
+    }
+    
+    section.private-pkg-details .all-pkg-main-div .private-premium h4 {
+        font-size: 14px !important;
+        width: 150px !important;
+        padding: 10px;
+    }
+    
+    section.private-pkg-details .all-pkg-main-div .private-pkg-div ul li.pkg-pricee span {
+        width: 150px !important;
+        padding: 10px !important;
+    }
+    
+    section.private-pkg-details .all-pkg-main-div .private-pkg-div ul li.pkg-pricee span:before {
+        left: 0 !important;
+    }
+    
+    .pkg-btn-btn.amazon-pkg-btnn .btn-bnnr {
+        margin-bottom: 20px !important;
+    }
+    
+    .pkg-btn-btn.amazon-pkg-btnn .btn-bnnr a.btn1-main {
+        font-size: 14px !important;
+        padding: 5px 20px !important;
+    }
+    
+    .private-pkg-txt p {
+        font-size: 10px !important;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+    .affiliate-all-txt.private-banefit-section .affiliate-why h1 {
+        margin-bottom: 20px !important;
+    }
+    
+    .private-banefit-img {
+        /*display: none;*/
+    }
+    
+    .private-process-h h2 {
+        font-size: 30px !important;
+        margin-bottom: 30px !important;
+    }
+    
+    section.private-process-section {
+        padding: 30px 0px !important;
+    }
+    
+    .fba-brand-hunting.fba-brand, .fba-order-management.fba-order {
+        padding: 30px 0px !important;
+    }
+    
+    .sign-up-content {
+        margin: 30px 0px !important;
+    }
+    
+    .fba-product-listing.fba-product, .fba-account-management.fba-account {
+        padding: 30px 0px !important;
+    }
+    
+    section.private-pkg-details {
+        padding: 30px 0px !important;
+    }
+    
+    section.private-pkg-details .all-pkg-main-div .all-pkg-content-div {
+        padding: 75px 30px 50px 30px;
+    }
+    
+    section.private-pkg-details .all-pkg-main-div:before {
+        /*opacity: 0;*/
+        /*width: 0;*/
+        /*height: 0;*/
+    }
+    
+    section.private-pkg-details .all-pkg-main-div .private-pkg-div ul li {
+        font-size: 12px !important;
+        margin: 5px 0px !important;
+        text-align: center;
+        line-height: 20px;
+    }
+    
+    section.private-pkg-details .all-pkg-main-div .private-premium h4 {
+        font-size: 14px !important;
+        width: 150px !important;
+        padding: 10px;
+    }
+    
+    section.private-pkg-details .all-pkg-main-div .private-pkg-div ul li.pkg-pricee span {
+        width: 150px !important;
+        padding: 10px !important;
+    }
+    
+    section.private-pkg-details .all-pkg-main-div .private-pkg-div ul li.pkg-pricee span:before {
+        left: 0 !important;
+    }
+    
+    .pkg-btn-btn.amazon-pkg-btnn .btn-bnnr {
+        margin-bottom: 20px !important;
+    }
+    
+    .pkg-btn-btn.amazon-pkg-btnn .btn-bnnr a.btn1-main {
+        font-size: 14px !important;
+        padding: 5px 20px !important;
+    }
+    
+    .private-pkg-txt p {
+        font-size: 10px !important;
+    }
+    .affiliate-caption-btn.amazon-fba {
+        margin-bottom: 20px !important;
+    }
+}

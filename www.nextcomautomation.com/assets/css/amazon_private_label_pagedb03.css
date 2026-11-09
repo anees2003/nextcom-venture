@@ -1,0 +1,328 @@
+section.affiliate-why-section.affiliate-all-txt.private-banefit-section {
+    background: unset !important;
+}
+
+section.affiliate-why-section.affiliate-all-txt.private-banefit-section:before {
+    height: 0;
+    width: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.affiliate-all-txt.private-banefit-section .affiliate-why h1 {
+    text-align: left;
+    font-size: 50px;
+}
+
+.affiliate-all-txt.private-banefit-section .affiliate-why-points {
+    padding: 0;
+}
+
+section.private-process-section {
+    background: linear-gradient(180deg, #3F1D00 0%, #FF7800 80.82%);
+    position: relative;
+    z-index: 1;
+    padding: 80px 0px;
+}
+
+.private-process-h h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Poppin' !important;
+    font-size: 80px;
+}
+
+section.private-pkg-details {
+    position: relative;
+    padding: 120px 0px 250px;
+    background: linear-gradient(0deg, #000 0%, #F27302 50%, #000000 100%);
+    z-index: 1;
+}
+
+section.private-pkg-details .all-pkg-main-div {
+    background: linear-gradient(0deg, #000000 0%, #FF7800 100%);
+    position: relative;
+    border-radius: 50px;
+    z-index: 1;
+}
+
+section.private-pkg-details .all-pkg-main-div:before {
+    background: linear-gradient(155deg, #000000 0%, #F27302 100%);
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 33%;
+    z-index: -1;
+    border-radius: 48px;
+}
+
+section.private-pkg-details .all-pkg-main-div .private-pkg-div.private-premium-center {
+    text-align: center;
+}
+
+section.private-pkg-details .all-pkg-main-div .all-pkg-content-div {padding: 90px 30px 50px 30px;}
+
+section.private-pkg-details .all-pkg-main-div .private-pkg-div ul {
+    padding: 0;
+    margin: 0;
+    /* text-align: center; */
+}
+
+section.private-pkg-details .all-pkg-main-div .all-pkg-content-div .private-pkg-div {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+section.private-pkg-details .all-pkg-main-div .private-premium {
+    text-align: center;
+}
+
+section.private-pkg-details .all-pkg-main-div .private-premium h4 {
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppin' !important;
+    padding: 15px 10px;
+    z-index: 1;
+    position: relative;
+    margin: 20px 0px;
+    width: 230px;
+    border-radius: 20px;
+}
+
+section.private-pkg-details .all-pkg-main-div .private-premium h4:before {
+    background: linear-gradient(180deg, #3F1D00 0%, #FF7800 90%);
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
+    border-radius: 20px;
+}
+
+section.private-pkg-details .all-pkg-main-div .private-premium h4:after {
+    content: '';
+    position: absolute;
+    background: linear-gradient(24deg, #3F1D00 0%, #FF7800 81%);
+    top: 10px;
+    bottom: 0;
+    left: -3px;
+    right: 0;
+    margin: auto;
+    z-index: -2;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+section.private-pkg-details .all-pkg-main-div .private-pkg-div ul li {color: #fff;font-size: 16px;font-weight: 500;margin: 8px 0px;line-height: 20px;/* height: 23px; */}
+
+section.private-pkg-details .all-pkg-main-div .private-pkg-div ul li.pkg-pricee span {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 10px 10px;
+    border-radius: 15px;
+    width: 230px;
+    /* background: linear-gradient(80deg, #000000 0%, #FF7800 100%); */
+    margin-bottom: 0px;
+}
+
+section.private-pkg-details .all-pkg-main-div .private-pkg-div ul li.pkg-pricee span:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -9px;
+    bottom: 0;
+    margin: auto;
+    background: linear-gradient(80deg, #000000 0%, #FF7800 100%);
+    z-index: -1;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+}
+.private-pkg-txt {
+    max-width: 100%;
+    margin: 0 0 0 auto;
+    text-align: center;
+}
+
+.private-pkg-txt p {
+    color: #858585;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+section.private-pkg-details:before {
+    content: '';
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 80%;
+    height: 220px;
+    background-image: url(../../images/private-pkg.png);
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    z-index: -1;
+}
+.abt-banner-caption .abt-text3 {
+    text-align: left;
+}
+.abt-banner-caption .abt-text3 span {
+    color: var(--btn-color);
+}
+.abt-banner-caption .text23 {
+    font-size: 16px;
+    margin: 50px 0px;
+}
+.affiliate-caption-btn.amazon-fba a.btn1-main {
+    font-size: 20px;
+}
+.affiliate-all-txt ul li {
+    font-size: 16px;
+}
+.affiliate-all-txt h2 {
+    font-size: 50px;
+}
+
+section.private-pkg-details .all-pkg-main-div .private-pkg-div ul li img.img-fluid {
+    max-width: 4%;
+}
+
+@media (max-width: 767px) {
+    .affiliate-all-txt.private-banefit-section .affiliate-why h1 {
+        font-size: 24px !important;
+        margin-bottom: 20px !important;
+    }
+    
+    .private-banefit-img {
+        display: none !important;
+    }
+    
+    section.private-process-section {
+        padding: 30px 0px !important;
+    }
+    
+    .private-process-h h2 {
+        font-size: 30px !important;
+        margin-bottom: 30px !important;
+    }
+    
+    section.private-pkg-details .all-pkg-main-div .all-pkg-content-div {
+        padding: 30px 0px 0px !important;
+        text-align: center;
+    }
+    
+    section.private-pkg-details .all-pkg-main-div:before {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    
+    section.private-pkg-details .all-pkg-main-div .private-pkg-div ul li {
+        font-size: 12px !important;
+    }
+    
+    section.private-pkg-details {
+        padding: 30px 0px 30px !important;
+    }
+    
+    section.private-pkg-details .all-pkg-main-div .private-premium h4 {
+        font-size: 12px !important;
+        width: 120px !important;
+        margin: 10px 0px !important;
+    }
+    
+    section.private-pkg-details .all-pkg-main-div .private-pkg-div ul li.pkg-pricee span {
+        width: 120px !important;
+    }
+    
+    section.private-pkg-details .all-pkg-main-div .private-pkg-div ul li.pkg-pricee span:before {
+        left: 0 !important;
+    }
+    
+    .pkg-btn-btn.amazon-pkg-btnn .btn-bnnr a.btn1-main {
+        font-size: 15px !important;
+        padding: 5px 20px !important;
+    }
+    
+    .private-pkg-txt p {
+        font-size: 10px !important;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+    .affiliate-all-txt.private-banefit-section .affiliate-why h1 {
+        font-size: 24px !important;
+        margin-bottom: 20px !important;
+    }
+    
+    .private-banefit-img {
+        /* display: none !important; */
+    }
+    
+    section.private-process-section {
+        padding: 30px 0px !important;
+    }
+    
+    .private-process-h h2 {
+        font-size: 30px !important;
+        margin-bottom: 30px !important;
+    }
+    
+    section.private-pkg-details .all-pkg-main-div .all-pkg-content-div {
+        padding: 30px 0px 0px !important;
+        text-align: center;
+    }
+    
+    section.private-pkg-details .all-pkg-main-div:before {
+        /*opacity: 0;*/
+        /*width: 0;*/
+        /*height: 0;*/
+    }
+    
+    section.private-pkg-details .all-pkg-main-div .private-pkg-div ul li {
+        font-size: 12px !important;
+    }
+    
+    section.private-pkg-details {
+        padding: 30px 0px 30px !important;
+    }
+    
+    section.private-pkg-details .all-pkg-main-div .private-premium h4 {
+        font-size: 12px !important;
+        width: 120px !important;
+        margin: 10px 0px !important;
+    }
+    
+    section.private-pkg-details .all-pkg-main-div .private-pkg-div ul li.pkg-pricee span {
+        width: 120px !important;
+    }
+    
+    section.private-pkg-details .all-pkg-main-div .private-pkg-div ul li.pkg-pricee span:before {
+        left: 0 !important;
+    }
+    
+    .pkg-btn-btn.amazon-pkg-btnn .btn-bnnr a.btn1-main {
+        font-size: 15px !important;
+        padding: 5px 20px !important;
+    }
+    
+    .private-pkg-txt p {
+        font-size: 10px !important;
+    }
+}

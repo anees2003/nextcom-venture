@@ -1,0 +1,167 @@
+.iti__selected-flag {
+    padding-left: 0;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 767px) {
+    .amazon-payoff .amazon-payoff-content p {
+        height: auto !important;
+        z-index: 9;
+        position: relative;
+        font-size: 12px !important;
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 2400px) {
+
+    section.private-pkg-details {
+        max-width: 1200px;
+        margin: 0 auto;
+        border-radius: 15px;
+    }
+
+    section.private-pkg-details .container {
+        max-width: 85%;
+    }
+
+    /*section.private-process-section {*/
+    /*    max-width: 1200px;*/
+    /*    margin: 0 auto;*/
+    /*    border-radius: 15px;*/
+    /*}*/
+
+    section.private-process-section .container {
+        max-width: 70%;
+    }
+
+    section.fba-business-setup {
+        max-width: 1100px;
+        margin: 0 auto;
+        border-radius: 15px;
+    }
+
+    section.fba-business-setup .container {
+        max-width: 90%;
+    }
+
+}
+
+.single-profit-div .profit-billed {
+    margin-bottom: 50px !important;
+}
+
+.single-profit-div .profit-split {
+    margin-bottom: 40px !important;
+}
+
+.innercaption h1 {
+    display: none;
+}
+
+@if (isset(request()->product_name) && request()->product_name !='') .form-section.h-search-form form.d-flex input {
+    transform: translateX(0px);
+    transition: 0.5s;
+}
+
+@endif .sub-dropdown-menu {
+    display: none;
+}
+
+.sub-dropdown-menu.show {
+    position: absolute;
+    top: 10px;
+    right: -150px;
+}
+
+.main-header li.nav-item ul li a.nav-link {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.main-header li.nav-item ul li a.nav-link:hover {
+    color: #fff !important;
+    background: unset !important;
+    background-color: unset !important;
+}
+
+.sub-dropdown-menu.show li.dropdown-item:hover a {
+    color: #fff !important;
+}
+
+.sub-dropdown-menu.show li.dropdown-item a {
+    color: #000 !important;
+}
+
+.sub-dropdown-parent.show:hover a {
+    color: #fff !important;
+}
+
+.container {
+    max-width: 79.438vw;
+}
+
+.alert-success {
+    padding: 10px !important;
+    font-size: 13px !important;
+}
+
+@media (max-width: 767px) {
+    label.agree {
+        display: flex;
+        align-items: center;
+    }
+
+    body label.agree span {
+        font-size: 10px !important;
+        margin-left: 5px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 992px) {
+    body .container {
+        max-width: 100% !important;
+    }
+
+    .main-header .navbar-collapse {
+        overflow: auto;
+    }
+
+    ul.dropdown-menu.sub-dropdown-menu {
+        display: block !important;
+        margin: 0 !important;
+        margin: 10px 0px !important;
+        /*height: 200px;*/
+        overflow: auto;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+    body .container {
+        max-width: 82.43vw !important;
+    }
+}
+
+.modal-header {
+    flex-direction: row-reverse;
+}
+
+.modal-body .form_submit_2 .form-group {
+    position: relative;
+}
+
+.modal-body .form_submit_2 .form-group img.img-fluid {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.modal-body .form_submit_2 .form-group label.agree {
+    display: flex;
+    align-items: center;
+}
+
+.modal-body .form_submit_2 .form-group label.agree input {
+    margin-right: 10px;
+}

@@ -1,0 +1,648 @@
+section.virtual-assistant-banner {
+    padding: 50px 0px 60px;
+    position: relative;
+    z-index: 1;
+}
+
+section.virtual-assistant-banner .abt-banner-caption .abt-text3 {
+    font-size: 50px;
+    text-align: left;
+}
+
+section.virtual-assist-section1 {
+    padding: 60px 0px 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.virtual-assis-proc {}
+
+.virtual-assis-proc .defalt-heading {
+    text-align: center;
+}
+
+.virtual-assis-proc .defalt-heading h1 {
+    color: #332C2C;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Poppin' !important;
+    margin-bottom: 80px;
+}
+
+.virtual-assis-proc .defalt-heading h1 span {
+    font-family: 'Poppin' !important;
+    color: var(--btn-color);
+}
+
+.virtual-assis-proc-stp1 {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 100px 40px;
+    border-radius: 40px;
+    transition: 0.5s;
+}
+
+.virtual-assis-proc-stp1 .virtual-assis-01 {
+    position: absolute;
+    top: -40px;
+    width: 90px;
+    height: 80px;
+    border-radius: 100%;
+    /* background: #F27302; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.virtual-assis-proc-stp1 h4 {
+    color: #332C2C;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Poppin' !important;
+    margin-bottom: 20px;
+}
+
+.virtual-assis-proc-stp1 p {
+    color: #17191B;
+    font-size: 16px;
+    font-weight: 500;
+    height: 90px;
+}
+
+.virtual-assis-proc-stp1 .virtual-assis-01:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    width: 90px;
+    height: 87px;
+    border-radius: 100%;
+    background: #9B4D08;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.virtual-assis-proc-stp1 .virtual-assis-01 span {
+    color: #332C2C;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Poppin' !important;
+    transition: 0.5s;
+}
+
+.virtual-assis-proc-stp1:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    background: linear-gradient(180deg, #D9D9D9 50%, #73737300 100%);
+    z-index: -4;
+}
+
+.virtual-assis-proc-stp1:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    border-radius: 40px;
+    background: linear-gradient(180deg, #f9f3f37d 0%, #7373734f 75%, #ffffff40 96%);
+    z-index: -1;
+    transition: 0.5s;
+}
+
+
+.virtual-assis-proc-stp1 .virtual-assis-01:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 90px;
+    height: 80px;
+    margin: 0 auto;
+    background: #F27302;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+section.virtual-assist-section2 {
+    padding: 60px 0px;
+    position: relative;
+    z-index: 1;
+}
+section.virtual-assist-section2:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #fff 22%, #7373735c 80%, #f9f3f3e8 100%);
+}
+
+.virtual-assis-role {
+    position: relative;
+    z-index: 1;
+}
+
+.virtual-assis-role span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.virtual-assis-role .defalt-heading {}
+
+.virtual-assis-role .defalt-heading h2 {
+    margin: 0;
+    color: #332C2C !important;
+    text-transform: capitalize !important;
+}
+
+.virtual-assis-role .defalt-heading h2 span {
+    font-family: 'Poppin' !important;
+    font-size: 50px;
+    color: var(--btn-color);
+    display: inline-block;
+    padding-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.virtual-assis-role .defalt-heading h2 span:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 140px;
+    height: 3px;
+    background: #1D1A18;
+}
+
+.account-reinstatement-why-txt {
+    position: relative;
+    z-index: 1;
+}
+
+.account-reinstatement-why-txt .deflt-p p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+section.virtual-assist-pkg {
+    padding: 60px 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.virtual-assist-pkg-h.all-default-ccontent .defalt-heading {
+    text-align: center;
+}
+
+.virtual-assist-pkg-h.all-default-ccontent .defalt-heading h2 {
+    color: #332c2c24;
+    font-size: 100px;
+}
+
+.virtual-assist-pkg-level {
+    text-align: center;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0px 50px;
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.virtual-assist-pkg-level .pkg-type-h {
+    display: inline-block;
+    font-family: 'Poppin' !important;
+    width: 80%;
+    margin-bottom: 50px;
+    background: #fff;
+    border-radius: 0px 0px 40px 40px;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 10px;
+}
+
+.virtual-assist-pkg-level .pkg-type-h span {
+    background: linear-gradient(90deg, #000000 0%, #F27302 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Poppin' !important;
+}
+
+.virtual-assist-pkg-points {}
+
+.virtual-assist-pkg-points ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.virtual-assist-pkg-points ul li {
+    font-size: 16px;
+    font-weight: 500;
+    height: 21px;
+    margin: 5px 0px;
+    line-height: 30px;
+    color: #fff;
+    position: relative;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pkg-price-nd-btn {
+    /* margin-top: 30px; */
+    display: inline-block;
+    position: relative;
+    bottom: -35px;
+    z-index: 1;
+    width: 75%;
+    padding: 5px 0px 10px;
+    text-align: center;
+    background: linear-gradient(0deg, #000000 0%, #F27302 100%);
+    border-radius: 25px;
+}
+
+.pkg-price-nd-btn span {
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Poppin' !important;
+    color: #fff;
+}
+
+.pkg-price-nd-btn .virtual-assist-btn.btn-bnnr {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: inline-block;
+}
+
+.pkg-price-nd-btn .virtual-assist-btn.btn-bnnr a.btn1-main {
+    border-radius: 15px;
+    background: linear-gradient(270deg, #000000 0%, #F27302 100%);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Poppin' !important;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 8px 0px;
+    width: 60%;
+}
+
+.virtual-assist-pkg-level.pkg-mid-level {
+    background: linear-gradient(0deg, #000000 0%, #F27302 100%);
+}
+
+.virtual-assist-pkg-level.pkg-expert-level {
+    background: linear-gradient(0deg, #1D1A18 0%, #D9D9D9 100%);
+}
+
+.virtual-assist-pkg-level.pkg-expert-level .pkg-price-nd-btn {
+    background: linear-gradient(0deg, #1D1A18 0%, #D9D9D9 100%);
+}
+
+.virtual-assist-pkg-level.pkg-expert-level .pkg-price-nd-btn .virtual-assist-btn.btn-bnnr a.btn1-main {
+    background: linear-gradient(270deg, #1D1A18 0%, #D9D9D9 100%);
+}
+
+.virtual-assist-pkg-level .pkg-type-h:before {
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    background: #5C5C5C;
+    border-radius: 100%;
+}
+
+.col-md-4.virtual-assint-arrow-st {
+    position: relative;
+}
+
+.col-md-4.virtual-assint-arrow-st:before {
+    content: '';
+    position: absolute;
+    right: -27px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-image: url(../../images/virtual-assistant-arrow.png);
+    width: 60px;
+    height: 15px;
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    z-index: 2;
+}
+section.virtual-assistant-banner .abt-banner-caption .abt-text3 span {
+    color: var(--btn-color);
+}
+
+.abt-banner-caption .text23 {
+    font-size: 16px;
+}
+
+.virtual-assist-pkg-points ul li:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 6px;
+    height: 6px;
+    background: #000;
+    border-radius: 50%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.virtual-assist-pkg-points ul li:hover:before {
+    /* opacity: 1; */
+    transition: 0.5s;
+}
+
+.virtual-assist-pkg-points ul li:hover {
+    /* transition: 0.5s; */
+    /* color: #000; */
+}
+.virtual-assis-proc-stp1:hover:after {
+    transition: 0.5s;
+    transform: rotateY(180deg);
+}
+
+.virtual-assis-proc-stp1:hover .virtual-assis-01 span {
+    transition: 0.5s;
+    color: #fff;
+}
+
+
+@media (max-width: 767px) {
+    .col-md-4.virtual-assint-arrow-st:before {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    
+    section.virtual-assist-section1 {
+        padding: 30px 0px 0px !important;
+    }
+    
+    .virtual-assis-proc .defalt-heading h1 {
+        font-size: 25px !important;
+        margin-bottom: 60px !important;
+    }
+    
+    .virtual-assis-proc-stp1 .virtual-assis-01 span {
+        /* font-size: 20px !important; */
+    }
+    
+    .virtual-assis-proc-stp1 .virtual-assis-01:before {
+        /* width: 70px !important; */
+        /* height: 66px !important; */
+    }
+    
+    .virtual-assis-proc-stp1 .virtual-assis-01:after {
+        /* width: 70px !important; */
+        /* height: 66px !important; */
+    }
+    
+    .virtual-assis-proc-stp1 .virtual-assis-01 {
+        /* top: -32px; */
+    }
+    
+    .virtual-assis-proc-stp1 h4 {
+        font-size: 20px !important;
+    }
+    
+    .virtual-assis-proc-stp1 p {
+        font-size: 12px !important;
+        height: auto !important;
+    }
+    
+    .virtual-assis-proc-stp1 {
+        padding: 80px 40px !important;
+    }
+    
+    .virtual-assis-role span {
+        font-size: 12px !important;
+    }
+    
+    .virtual-assis-role .defalt-heading h2 span {
+        font-size: 20px !important;
+    }
+    
+    .virtual-assis-role .defalt-heading h2 {
+        margin-bottom: 20px !important;
+    }
+    
+    .virtual-assis-role .defalt-heading h2 span:before {
+        width: 100% !important;
+        height: 1px !important;
+    }
+    
+    .account-reinstatement-why-txt .deflt-p p {
+        font-size: 12px !important;
+    }
+    
+    section.virtual-assist-section2 {
+        padding: 30px 0px !important;
+    }
+    
+    section.virtual-assist-pkg {
+        padding: 30px 0px 0px !important;
+    }
+    
+    .virtual-assist-pkg-h.all-default-ccontent .defalt-heading h2 {
+        font-size: 30px !important;
+        margin-bottom: 50px !important;
+    }
+    
+    .virtual-assist-pkg-level {
+        padding: 0px 20px !important;
+        margin-bottom: 90px !important;
+    }
+    
+    .virtual-assist-pkg-level .pkg-type-h span {
+        font-size: 20px !important;
+    }
+    
+    .virtual-assist-pkg-level .pkg-type-h:before {
+        height: 15px !important;
+        width: 15px !important;
+        top: -15px !important;
+    }
+    
+    .virtual-assist-pkg-points ul li {
+        height: auto !important;
+        font-size: 12px !important;
+        line-height: 20px !important;
+    }
+    
+    .virtual-assist-pkg-level .pkg-type-h {
+        margin-bottom: 20px !important;
+    }
+    
+    .pkg-price-nd-btn span {
+        font-size: 20px !important;
+    }
+    
+    .pkg-price-nd-btn {
+        bottom: -20px !important;
+    }
+    
+    .pkg-price-nd-btn .virtual-assist-btn.btn-bnnr {
+        bottom: -18px !important;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+    .col-md-4.virtual-assint-arrow-st:before {
+        /*opacity: 0;*/
+        /*width: 0;*/
+        /*height: 0;*/
+    }
+    
+    section.virtual-assist-section1 {
+        padding: 30px 0px 0px !important;
+    }
+    
+    .virtual-assis-proc .defalt-heading h1 {
+        font-size: 25px !important;
+        margin-bottom: 60px !important;
+    }
+    
+    .virtual-assis-proc-stp1 .virtual-assis-01 span {
+        /* font-size: 20px !important; */
+    }
+    
+    .virtual-assis-proc-stp1 .virtual-assis-01:before {
+        /* width: 70px !important; */
+        /* height: 66px !important; */
+    }
+    
+    .virtual-assis-proc-stp1 .virtual-assis-01:after {
+        /* width: 70px !important; */
+        /* height: 66px !important; */
+    }
+    
+    .virtual-assis-proc-stp1 .virtual-assis-01 {
+        /* top: -32px; */
+    }
+    
+    .virtual-assis-proc-stp1 h4 {
+        font-size: 20px !important;
+    }
+    
+    .virtual-assis-proc-stp1 p {
+        font-size: 12px !important;
+        height: auto !important;
+    }
+    
+    .virtual-assis-proc-stp1 {
+        padding: 80px 40px !important;
+    }
+    
+    .virtual-assis-role span {
+        font-size: 14px !important;
+    }
+    
+    .virtual-assis-role .defalt-heading h2 span {
+        font-size: 27px !important;
+    }
+    
+    .virtual-assis-role .defalt-heading h2 {
+        margin-bottom: 20px !important;
+        font-size: 27px !important;
+    }
+    
+    .virtual-assis-role .defalt-heading h2 span:before {
+        width: 100% !important;
+        height: 1px !important;
+    }
+    
+    .account-reinstatement-why-txt .deflt-p p {
+        font-size: 14px !important;
+    }
+    
+    section.virtual-assist-section2 {
+        padding: 30px 0px !important;
+    }
+    
+    section.virtual-assist-pkg {
+        padding: 30px 0px 0px !important;
+    }
+    
+    .virtual-assist-pkg-h.all-default-ccontent .defalt-heading h2 {
+        font-size: 50px !important;
+        margin-bottom: 50px !important;
+    }
+    
+    .virtual-assist-pkg-level {
+        padding: 0px 20px !important;
+        margin-bottom: 90px !important;
+    }
+    
+    .virtual-assist-pkg-level .pkg-type-h span {
+        font-size: 22px !important;
+    }
+    
+    .virtual-assist-pkg-level .pkg-type-h:before {
+        height: 15px !important;
+        width: 15px !important;
+        top: -15px !important;
+    }
+    
+    .virtual-assist-pkg-points ul li {
+        /* height: auto !important; */
+        font-size: 14px !important;
+        line-height: 20px !important;
+    }
+    
+    .virtual-assist-pkg-level .pkg-type-h {
+        top: -1px !important;
+        margin-bottom: 20px !important;
+    }
+    
+    .pkg-price-nd-btn span {
+        font-size: 24px !important;
+    }
+    
+    .pkg-price-nd-btn {
+        bottom: -20px !important;
+    }
+    
+    .pkg-price-nd-btn .virtual-assist-btn.btn-bnnr {
+        bottom: -30px !important;
+    }
+}

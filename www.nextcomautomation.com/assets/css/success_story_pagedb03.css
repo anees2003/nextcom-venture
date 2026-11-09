@@ -1,0 +1,26 @@
+section.successs-story-section1 {
+    padding-top: 80px;
+}
+
+.happy-client .defalt-heading {
+    text-align: center;
+}
+
+.happy-client .defalt-heading h2 {
+    color: #000;
+    text-transform: capitalize;
+}
+
+.happy-client .defalt-heading h2 span {
+    color: var(--btn-color);
+    font-family: 'Poppin' !important;
+}
+.successs-story-section1 .cust-cust .inner-testimonial {
+    margin: 0;
+    margin-bottom: 20px;
+}
+@media (max-width: 992px) {
+    section.successs-story-section1 {
+        padding-top: 30px !important;
+    }
+}

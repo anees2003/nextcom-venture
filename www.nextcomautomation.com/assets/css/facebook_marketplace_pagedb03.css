@@ -1,0 +1,581 @@
+.affiliate-caption-btn.amazon-fba {
+    padding-left: 0;
+    margin-top: 0px;
+}
+
+.affiliate-caption-btn.amazon-fba a.btn1-main {
+    margin-top: 0px;
+}
+
+.fba-banner-section.about-banner-section {
+    padding: 80px 0px;
+}
+
+.fba-banner-section .abt-banner-caption {
+    margin: 0;
+}
+
+.fba-section1 .defalt-heading h1 {
+    margin: 0;
+    font-size: 70px;
+    color: #332C2C;
+    font-weight: 700;
+    font-family: Poppin !important;
+    margin-bottom: 30px;
+}
+
+.fba-section1 .defalt-heading h1 span {
+    font-family: Poppin !important;
+    margin-left: 10px;
+    color: var(--btn-color1);
+}
+
+.fba-steps-img {
+    max-width: 90%;
+    margin: 0 auto;
+    height: 200px;
+    position: relative;
+    transition: 0.5s;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.fba-steps-img img.img-fluid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    animation: pulse 2s infinite;
+}
+
+.fba-step-all {}
+
+.fba-step-all h4 {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Poppin !important;
+    color: #fff;
+    max-width: 280px;
+    margin: 0 auto;
+    padding: 25px 60px 25px 30px;
+    margin-bottom: 20px;
+}
+
+.fba-step-all h4.fba-arrow1 {
+    background-image: url(../../images/fb-arrow22.png);
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+    background-position: center;
+}
+
+.fba-step-all h4.fba-arrow2 {
+    background-image: url(../../images/fb-arrow11.png);
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+    background-position: center;
+}
+
+.fba-step-all p {
+    color: #4F4F4F;
+    font-size: 16px;
+    font-weight: 400;
+    height: 95px;
+}
+
+.amazon-payoff {
+    background: linear-gradient(40deg, #000 25%, #3F1D00 82%, #FF7800 100%);
+    padding: 40px;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 150px;
+    margin-bottom: 180px;
+}
+
+.amazon-payoff .amazon-payoff-content h2 {
+    font-size: 50px;
+    font-family: Poppin !important;
+    color: #fff;
+}
+
+.amazon-payoff .amazon-payoff-content h2 span {
+    color: var(--btn-color1);
+    font-family: Poppin !important;
+}
+
+.amazon-payoff .amazon-payoff-content p {
+    color: #fff !important;
+    font-size: 17px;
+    font-weight: 600;
+    height: 140px;
+}
+
+.amazon-payoff .amazon-payoff-img {
+    position: absolute;
+    bottom: -140px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.fba-brand-hunting.fba-brand, .fba-order-management.fba-order {
+    position: relative;
+    z-index: 1;
+    padding: 50px 0px;
+    background: linear-gradient(130deg, #EFEFEF 0%, #fff 80%);
+}
+
+.affiliate-all-txt h2 span {
+    font-family: 'Poppin' !important;
+    color: var(--btn-color1);
+}
+
+.fba-product-listing.fba-product, .fba-account-management.fba-account {
+    position: relative;
+    z-index: 1;
+    padding: 50px 0px;
+    background: linear-gradient(130deg, #fff 0%, #EFEFEF 80%);
+}
+
+.fba-order-management.fba-order {}
+
+.fba-account-management.fba-account {}
+
+.fba-packages-have.fba-packages {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+
+
+section.fba-business-setup {
+    padding: 80px 0px;
+    position: relative;
+    background: linear-gradient(0deg, #000 0%, #0865FE 50%, #000000 100%);
+    z-index: 1;
+}
+.business-setup-fba-div h4 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Poppin' !important;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.business-setup-fba-div ul {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.business-setup-fba-div ul li {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 15px 0px;
+    position: relative;
+    transition: 0.5s;
+}
+.business-setup-fba-div ul li a {}
+.business-setup-fba-div {
+    position: relative;
+    z-index: 1;
+}
+.business-setup-fba-div.business-fba-center-div:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -80px;
+    width: 30px;
+    height: 230px;
+    background-image: url(../../images/line-affiliate.png);
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+.business-setup-fba-div.business-fba-center-div:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 30px;
+    width: 30px;
+    height: 230px;
+    background-image: url(../../images/line-affiliate.png);
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+.business-profit-fba-div {
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+    position: relative;
+    z-index: 1;
+    /* margin-top: 50px; */
+}
+.single-profit-div {
+    /* width: 33.3%; */
+    text-align: center;
+}
+.single-profit-div .profit-split {
+    margin-bottom: 20px;
+}
+.single-profit-div .profit-split span {
+    /* background: linear-gradient(24deg, #90D13D 0%, #6DAD1C 81%); */
+    padding: 10px 20px;
+    display: inline-block;
+    position: relative;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppin' !important;
+    width: 210px;
+    z-index: 1;
+    color: #fff;
+}
+.single-profit-div .profit-billed {
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Poppin' !important;
+    margin-bottom: 30px;
+}
+.single-profit-div .profit-billed h3 {
+    font-size: 35px;
+    font-family: 'Poppin' !important;
+    font-weight: 700;
+}
+.single-profit-div .profit-billed span {
+    font-size: 16px;
+}
+.single-profit-div .profit-btn {}
+.single-profit-div .profit-btn a {
+    color: #fff;
+    background: var(--btn-color1);
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppin' !important;
+}
+.business-profit-fba-div:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 87%;
+    border: 3px solid #fff;
+    z-index: -1;
+    border-radius: 30px;
+}
+.profit-other-text {}
+.profit-other-text p {
+    margin: 0;
+    color: #858585;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 50px;
+}
+.shopify-dropshipping-section .affiliate-caption-btn .btn-bnnr a {
+    background: #063279;
+    font-size: 20px;
+}
+
+.abt-banner-caption .abt-text3 span {
+    font-family: 'Poppin' !important;
+    color: #5B99FF;
+}
+
+.affiliate-what-section.affiliate-all-txt .what-do-text {
+    margin: 80px auto 120px;
+}
+
+.sign-up-content {
+    padding: 0;
+    margin: 40px 0px;
+}
+
+.single-profit-div .profit-split span:before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(24deg, #000 0%, #0865FE 65%);
+    top: 10px;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    margin: auto;
+    z-index: -1;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.single-profit-div .profit-split span:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(180deg, #0865FE 70%, #002665 120%);
+    border-radius: 15px;
+}
+.logo-sec .header-top {
+    background: linear-gradient(110deg, #0865FE 0%, #274F92 85%) !important;
+}
+.main-header li.nav-item a.nav-link:hover {
+    /* background-color: #0865FE !important; */
+}
+
+.main-header li.nav-item.services-inner-page .mega-menu-service-main-box {
+    background: linear-gradient(110deg, #0865FE 0%, #274F92 85%) !important;
+}
+.abt-banner-caption .abt-text3 {
+    text-align: left;
+}
+
+.abt-banner-caption .text23 {
+    font-size: 16px;
+}
+
+.affiliate-all-txt p {
+    font-size: 16px;
+}
+
+.business-setup-fba-div ul li:before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 10px;
+    height: 10px;
+    background: #000000;
+    border-radius: 50%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.business-setup-fba-div ul li:hover:before {
+    transition: 0.5s;
+    opacity: 1;
+}
+.main-header li.nav-item a.nav-link:after {
+    background: #0e61eb;
+}
+
+.tabs-mega-menu h2:before {
+    background: linear-gradient(270deg, #0a65fc 0%, #fff 40.82%);
+}
+
+.services-main-services .services-parent h3:before {
+    background: linear-gradient(270deg, #0a65fc 0%, #fff 40.82%);
+}
+
+@media (max-width: 767px) {
+    .fba-section1 .defalt-heading h1 {
+        font-size: 35px !important;
+    }
+    
+    .fba-step-all h4 {
+        font-size: 20px !important;
+    }
+    
+    .fba-step-all p {
+        height: auto !important;
+        font-size: 12px !important;
+    }
+    
+    .affiliate-all-txt h2 {
+        line-height: normal !important;
+    }
+    
+    .sign-up-content {
+        margin: 20px 0px 0px !important;
+    }
+    
+    .fba-brand-hunting.fba-brand, .fba-order-management.fba-order {
+        padding: 30px 0px !important;
+    }
+    
+    .fba-product-listing.fba-product, .fba-account-management.fba-account {
+        padding: 30px  0px !important;
+    }
+    
+    .fba-brand-hunting.fba-brand .row, .fba-order-management.fba-order .row {
+        flex-direction: column-reverse;
+    }
+    
+    .fba-packages-have.fba-packages {
+        padding: 30px 0px !IMPORTANT;
+    }
+    
+    section.fba-business-setup {
+        padding: 30px 0px !important;
+    }
+    
+    .business-setup-fba-div h4 {
+        margin: 20px 0px !important;
+        font-size: 16px !important;
+    }
+    
+    .business-setup-fba-div ul li {
+        font-size: 12px !important;
+        margin: 5px 0px !important;
+    }
+    
+    .business-setup-fba-div.business-fba-center-div:after {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    
+    .business-profit-fba-div {
+        margin: 20px 0px !important;
+    }
+    
+    .single-profit-div .profit-split span {
+        width: 170px !important;
+        font-size: 14px !important;
+    }
+    
+    .single-profit-div .profit-billed h3 {
+        font-size: 30px !important;
+        margin: 0 !important;
+    }
+    
+    .single-profit-div .profit-billed span {
+        font-size: 12px !important;
+    }
+    
+    .single-profit-div .profit-btn a {
+        font-size: 16px !important;
+        padding: 5px 20px !important;
+    }
+    
+    .profit-other-text p {
+        padding: 0 !important;
+        font-size: 10px !important;
+    }
+}
+@media (min-width: 767px) and (max-width: 992px) {
+    .fba-section1 .defalt-heading h1 {
+        font-size: 35px !important;
+    }
+    
+    .fba-step-all h4 {
+        font-size: 20px !important;
+    }
+    
+    .fba-step-all p {
+        /* height: auto !important; */
+        font-size: 12px !important;
+    }
+    
+    .affiliate-all-txt h2 {
+        line-height: normal !important;
+    }
+    
+    .sign-up-content {
+        margin: 20px 0px 0px !important;
+    }
+    
+    .fba-brand-hunting.fba-brand, .fba-order-management.fba-order {
+        padding: 30px 0px !important;
+    }
+    
+    .fba-product-listing.fba-product, .fba-account-management.fba-account {
+        padding: 30px  0px !important;
+    }
+    
+    .fba-brand-hunting.fba-brand .row, .fba-order-management.fba-order .row {
+        /*flex-direction: column-reverse;*/
+    }
+    
+    .fba-packages-have.fba-packages {
+        padding: 30px 0px !IMPORTANT;
+    }
+    
+    section.fba-business-setup {
+        padding: 30px 0px !important;
+    }
+    
+    .business-setup-fba-div h4 {
+        margin: 20px 0px !important;
+        font-size: 16px !important;
+    }
+    
+    .business-setup-fba-div ul li {
+        font-size: 12px !important;
+        margin: 5px 0px !important;
+    }
+    
+    .business-setup-fba-div.business-fba-center-div:after {
+        /*opacity: 0;*/
+        /*width: 0;*/
+        /*height: 0;*/
+        height: 200px !important;
+    }
+    
+    .business-profit-fba-div {
+        margin: 20px 0px !important;
+    }
+    
+    .single-profit-div .profit-split span {
+        width: 170px !important;
+        font-size: 14px !important;
+    }
+    
+    .single-profit-div .profit-billed h3 {
+        font-size: 30px !important;
+        margin: 0 !important;
+    }
+    
+    .single-profit-div .profit-billed span {
+        font-size: 12px !important;
+    }
+    
+    .single-profit-div .profit-btn a {
+        font-size: 16px !important;
+        padding: 5px 20px !important;
+    }
+    
+    .profit-other-text p {
+        padding: 0 !important;
+        font-size: 10px !important;
+    }
+    .fba-banner-section.about-banner-section {
+        background-size: 100% 100% !important;
+        padding: 30px 0px !important;
+    }
+    
+    .abt-banner-caption .text23 {
+        font-size: 14px !important;
+    }
+    
+    .shopify-dropshipping-section .affiliate-caption-btn .btn-bnnr a {
+        font-size: 15px !important;
+    }
+    
+    .fba-steps-img {
+        height: 180px !important;
+    }
+    
+    .fba-step-all h4 {
+        font-size: 16px !important;
+    }
+    
+    .business-setup-fba-div.business-fba-center-div:before {
+        height: 200px !important;
+    }
+}

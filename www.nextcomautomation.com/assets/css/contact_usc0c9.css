@@ -1,0 +1,511 @@
+.contact-page-section {
+    padding: 60px 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-page-headings.all-default-ccontent .defalt-heading {
+}
+
+.contact-page-headings.all-default-ccontent .defalt-heading h2 {
+    color: #332C2C;
+    text-transform: capitalize;
+    display: block;
+    /* margin: 20px 0px; */
+    /* padding: 5px 0px 5px 30px; */
+    position: relative;
+    z-index: 1;
+    margin: 0 !important;
+    font-size: 60px !important;
+    margin-top: 50px !important;
+}
+
+.contact-page-headings.all-default-ccontent .defalt-heading h2 span {
+    color: var(--btn-color);
+    font-family: 'Poppin' !important;
+}
+
+
+.contact-page-headings.all-default-ccontent .deflt-p p {
+    padding-left: 30px;
+    color: #35455A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.contact-page-headings.all-default-ccontent .cont-demo-page-btn.about-btn.btn-bnnr {
+    padding-left: 30px;
+}
+
+.contact-page-headings.all-default-ccontent .defalt-heading h2:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+    background: linear-gradient(120deg, #EFEFEF 0%, #fff0 80%);
+    z-index: -1;
+    opacity: 1;
+}
+
+.contact-page-headings.all-default-ccontent .cont-demo-page-btn.about-btn.btn-bnnr a.btn1-main {
+    padding: 15px 60px;
+    border-radius: 10px 0px 0px 0px;
+    color: #fff;
+    font-family: 'Poppin' !important;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.global-single-div {
+    padding: 30px 10px;
+    text-align: center;
+    margin: 50px 0px;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.global-single-div:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #EFEFEF 0%, #fff0 100%);
+    z-index: -1;
+}
+
+.global-single-div .global-img {
+    height: 140px;
+    width: 100%;
+    position: relative;
+}
+
+.global-single-div .global-img img.img-fluid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.global-single-div .global-content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--btn-color);
+    margin: 10px 0px;
+}
+
+.global-single-div .global-content p {
+    color: #767676;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contact-page-section:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0px;
+    bottom: 159px;
+    margin: auto;
+    width: 60%;
+    height: 49%;
+    background-image: url(../../images/contact-page-bg1.png);
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    z-index: -1;
+}
+
+
+.schedule-section .demo-year h2 {
+    font-size: 100px;
+    background: linear-gradient(100deg, #3F1D00 0%, #FF7800 73%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: rotate(90deg);
+    font-family: 'Poppin' !important;
+    font-weight: 700;
+    width: 400px;
+    position: relative;
+    right: 105px;
+    top: 140px;
+}
+
+.schedule-section {
+    padding: 60px 0px;
+}
+
+.schedule-section .demo-call-content .deflt-p p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #35455A;
+    line-height: 25px;
+}
+.global-single-div:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.global-maps-section {
+    padding: 150px 0px 60px;
+    position: relative;
+}
+
+.contact-page-map {
+    position: relative;
+    z-index: 1;
+}
+
+.contact-page-map .all-flags {
+    max-width: 17%;
+    display: inline-block;
+    /* position: relative; */
+    top: -300px;
+    left: 114px;
+}
+
+.contact-page-map span.map-flg1.all-flags {
+    position: absolute;
+    top: 10%;
+    left: 66%;
+    max-width: 9%;
+    z-index: 1;
+}
+.contact-page-map  .img-globl-mpp {
+    /* position: absolute; */
+}
+
+.contact-page-map span.map-flg2.all-flags {
+    top: -7%;
+    left: auto;
+    right: 12%;
+    position: absolute;
+}
+
+.contact-page-map span.map-flg3.all-flags {
+    top: 2%;
+    left: 56%;
+    max-width: 12%;
+    position: absolute;
+}
+
+.contact-page-map span.map-flg4.all-flags {
+    position: absolute;
+    top: -3%;
+    left: 10%;
+}
+
+@media (max-width: 767px) {
+    .contact-page-headings.all-default-ccontent .defalt-heading h2 {
+        font-size: 20px !important;
+        margin-top: 30px !important;
+    }
+    .contact-page-map .all-flags {
+        /* left: 50px !important; */
+    }
+    .abt-banner-caption .abt-text3 {
+        font-size: 24px !important;
+    }
+    .contact-page-section {
+        padding: 30px 0px !important;
+    }
+    .contact-page-headings.all-default-ccontent .deflt-p p {
+        padding: 0 !important;
+        font-size: 12px !important;
+        line-height: 20px !important;
+        margin-top: 15px;
+    }
+    .contact-page-headings.all-default-ccontent .cont-demo-page-btn.about-btn.btn-bnnr {
+        padding: 0 !important;
+    }
+    .contact-page-section:before {
+        background-size: cover !important;
+    }
+    .quick-contact .quick-form .form-group.check-agree-c span {
+        font-size: 10px;
+    }
+    .schedule-section .demo-year h2 {
+        transform: unset !important;
+        right: 0;
+        top: 0;
+        font-size: 30px;
+        display: none !important;
+    }
+}
+@media (min-width: 767px) and (max-width: 992px) {
+    .contact-page-headings.all-default-ccontent .defalt-heading h2 {
+        font-size: 30px !important;
+        margin-top: 30px !important;
+    }
+    .contact-page-map .all-flags {
+        left: 50px !important;
+    }
+    .abt-banner-caption .abt-text3 {
+        font-size: 24px !important;
+    }
+    .contact-page-section {
+        padding: 30px 0px !important;
+    }
+    .contact-page-headings.all-default-ccontent .deflt-p p {
+        padding: 0 !important;
+        font-size: 14px !important;
+        line-height: 22px !important;
+        margin-top: 15px;
+    }
+    .contact-page-headings.all-default-ccontent .cont-demo-page-btn.about-btn.btn-bnnr {
+        padding: 0 !important;
+    }
+    .contact-page-section:before {
+        background-size: cover !important;
+    }
+    .quick-contact .quick-form .form-group.check-agree-c span {
+        font-size: 10px;
+    }
+    .abt-banner-caption .text23 {
+        font-size: 16px !important;
+    }
+    .contact-page-headings.all-default-ccontent .cont-demo-page-btn.about-btn.btn-bnnr a.btn1-main {
+        font-size: 14px !important;
+    }
+    .quick-contact .all-default-ccontent .defalt-heading h2 {
+        font-size: 20px !important;
+        margin-bottom: 10px !important;
+    }
+    .schedule-section .demo-year h2 {
+        right: 175px !important;
+        font-size: 60px !important;
+        top: 200px !important;
+    }
+}
+
+
+
+
+
+
+.ui-widget-content {
+    background: transparent !important;
+}
+
+.ui-datepicker-header {
+    background: none;
+    border: 0;
+    color: black;
+    font-weight: normal;
+}
+
+table.ui-datepicker-calendar .th {
+    font-weight: normal;
+}
+
+.ui-datepicker th span {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+a.ui-state-default {
+    background: none !important;
+    color: #10182899  !important;
+    border: 0 !important;
+    width: 44px;
+    height: 44px;
+    line-height: 40px;
+    text-align: center !important;
+}
+
+
+/*td.ui-datepicker-today a*/
+a.ui-state-active  {
+    background: #155eef !important;
+    border-radius: 50% !important;
+    text-align: center;
+    width: 44px;
+    height: 44px;
+    line-height: 40px;
+    margin: auto;
+    float: none;
+    color: #fff !important;
+}
+
+.ui-datepicker td {
+    text-align: center !important;
+}
+
+.ui-datepicker {
+    width: 100%;
+    max-width: 340px;
+}        
+
+.calender-container {width: 100%;max-width: 600px;/* height: 380px; *//* overflow-y: scroll; */}
+
+div#datepicker {
+    width: 340px;
+    display: inline-block;
+}
+
+ul.widgets-time-slots {
+    width: 240px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 0;
+    height: 300px;
+    overflow-y: scroll !important;
+}
+
+ul.widgets-time-slots li {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 98%;
+}
+
+.widgets-time-slot {
+
+    color: #155eef;
+    font-size: 13px;
+}
+
+ul.widgets-time-slots li:first-of-type {
+}
+ul.widgets-time-slots li span {border: 1px solid #155eef;width: 100%;display: block;cursor: pointer;border-radius: 5px;}
+
+li.widgets-time-slot button {
+    display: none;
+}
+
+li.widgets-time-slot.active button {
+    display: initial;
+    background-color: #155eef !important;
+    border: 1px solid #155eef !important;
+}
+
+ul.widgets-time-slots li.active span {
+    width: calc(100% - 117px);
+    display: inline-block;
+    background-color: rgba(16, 24, 40, 0.6) !important;
+    color:#fff !important;
+}
+
+ul.widgets-time-slots li.active button {
+    width: calc(100% - 117px);
+    display: inline-block;
+    height: 100%;
+}
+
+.calender-container .ui-datepicker-header {
+    border: 0 !important;
+    background: none !important;
+}
+
+.calender-container .ui-datepicker-header .ui-datepicker-title {
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.calender-container .ui-datepicker-inline {
+    width: 100% !important;
+    border: 1px solid #155eef;
+}
+
+.calender-container .ui-datepicker-calendar {
+    font-size: 14px !important;
+}
+
+.calender-container .ui-datepicker-calendar th {
+    padding: 5px;
+}
+.schedule-demo-call {
+    height: 400px;
+    overflow-y: scroll !important;
+    overflow: hidden;
+}
+
+.demo-call-form {}
+
+.demo-call-form .form-group {
+    margin-bottom: 10px;
+    max-width: 95%;
+}
+
+.demo-call-form .form-group label {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.demo-call-form .form-group input, .demo-call-form .form-group textarea {
+    color: #000;
+    background: #f6f6f6;
+    border: 0 !IMPORTANT;
+    height: 45px;
+    font-size: 14px;
+}
+
+.demo-call-form .form-group input::placeholder {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.demo-call-form .form-group select.form-control {
+    color: #000;
+    background: #f6f6f6;
+    border: 0 !IMPORTANT;
+    height: 45px;
+}
+
+.demo-call-form button.con_form_btns {}
+
+.demo-call-form .cap_codee {
+    text-align: end;
+    max-width: 95%;
+}
+
+.demo-call-form .form-group input:focus, 
+.demo-call-form .form-group select.form-control:focus, 
+.demo-call-form .form-group textarea:focus {
+    box-shadow: none;
+}
+
+.demo-call-form .form-group textarea {
+    height: 70px !important;
+}
+
+.schedule-back-arrow {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    left: 33%;
+}
+
+.schedule-back-arrow img.img-fluid {
+    filter: invert(1);
+    transform: rotate(180deg);
+}
+.demo-call-form .form-group input:focus-visible {
+    box-shadow: none !important;
+    outline: none;
+}
+
+.demo-call-form .form-group input#final_date {
+    padding: 10px;
+    border-radius: 5px;
+}

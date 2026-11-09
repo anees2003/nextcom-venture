@@ -1,0 +1,496 @@
+section.wholesale-page2-banner.about-banner-section {
+    padding: 80px 0px 120px;
+}
+
+.wholesale-page2-banner .abt-banner-caption .abt-text3 {
+    font-size: 50px;
+    text-align: left;
+}
+
+.wholesale-page2-banner .btn-bnnr a.btn1-main {
+    background: #90D13D !important;
+    color: #fff;
+    border-radius: 50px;
+    font-family: 'Poppin' !important;
+    font-size: 20px;
+    padding: 7px 30px;
+}
+
+section.amazon-wholesale-section1 {
+    padding: 80px 0px;
+    position: relative;
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    text-align: center;
+}
+
+.amazon-wholesale-h {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.amazon-wholesale-h .defalt-heading h1 {
+    color: #332C2C;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Poppin' !important;
+    position: relative;
+}
+
+.amazon-wholesale-h .defalt-heading h1 span {
+    font-family: 'Poppin' !important;
+    color: #90D13D !important;
+}
+
+.amazon-wholesale-h .deflt p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+section.amazon-wholesale-goals {
+    padding: 60px 0px;
+    position: relative;
+    z-index: 1;
+}
+
+section.amazon-wholesale-goals .all-goals-section {
+    margin: 50px 0px;
+    position: relative;
+    z-index: 1;
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    padding: 30px 50px;
+}
+
+section.amazon-wholesale-goals .amazon-wholesale-goals-h {
+    text-align: center;
+    padding: 0 !important;
+}
+
+.amazon-wholesale-goals-h h2 {
+    color: #EBEBEB;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Poppin' !important;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 80px;
+}
+
+.all-goals-section .all-goals-content {
+    position: relative;
+    z-index: 1;
+}
+
+.amazon-wholesale-goals-content-1 {}
+
+.goals-h h2 {
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Poppin' !important;
+}
+
+.goals-h h2 span {
+    font-family: 'POPPIN' !important;
+    color: #90D13D !important;
+}
+
+.goals-points {
+    padding: 0;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.goals-points ul {
+    padding: 0;
+    margin: 0px 30px 0px 0px;
+}
+
+.goals-points ul li {
+    position: relative;
+    padding-left: 30px;
+    color: #fff;
+    margin: 15px 0px;
+    font-size: 16px;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.goals-points ul li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 10px;
+    height: 10px;
+    background: #90D13D !important;
+}
+
+.goals-price {
+    padding: 15px 30px;
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(90deg, #000000 0%, #90D13D 100%);
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.amazon-wholesale-goals-content-1 .goals-btn.btn-bnnr {
+    position: absolute;
+    bottom: -45px;
+    left: 0;
+}
+
+.amazon-wholesale-goals-content-2 .goals-btn.btn-bnnr {
+    position: absolute;
+    right: 0;
+    bottom: -45px;
+}
+
+.goals-price h4 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Poppin' !important;
+}
+
+.goals-price span {
+    font-family: 'Poppin' !important;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.amazon-wholesale-goals-content-2 .goals-price-all {
+    text-align: end;
+    position: relative;
+    z-index: 1;
+}
+
+.goals-btn.btn-bnnr a.btn1-main {
+    background: linear-gradient(270deg, #000000 0%, #90D13D 100%);
+    border-radius: 15px;
+    color: #fff;
+    font-family: 'Poppin' !important;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.amazon-wholesale-goals1 .goals-step {
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+}
+
+.goals-step span {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Poppin' !important;
+    text-transform: uppercase;
+}
+
+.amazon-wholesale-goals2 .goals-step {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+}
+
+.goals-btm-txt {
+    text-align: center;
+    margin-top: 50px;
+    padding: 15px 0px;
+    background: linear-gradient(90deg, #DADADA 0%, #000000 100%);
+}
+
+.goals-btm-txt p {
+    margin: 0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.logo-sec .header-top {
+    background: linear-gradient(110deg, #111B06 0%, #7DA649 85%) !important;
+}
+.main-header li.nav-item a.nav-link:hover {
+    /* background-color: #90D13D !important; */
+}
+
+.main-header li.nav-item.services-inner-page .mega-menu-service-main-box {
+    background: linear-gradient(180deg,#90D13D,#000) !important;
+}
+
+.wholesale-page2-banner .abt-banner-caption .abt-text3 span {
+    color: #90D13D;
+    font-family: 'Poppin' !important;
+}
+.abt-banner-caption .text23 {
+    font-size: 16px;
+}
+.main-header li.nav-item a.nav-link:after {
+    background: #76ac32;
+}
+
+.tabs-mega-menu h2:before {
+    background: linear-gradient(270deg, #65922b 0%, #fff 40.82%);
+}
+
+.services-main-services .services-parent h3:before {
+    background: linear-gradient(270deg, #65922b 0%, #fff 40.82%);
+}
+
+@media (max-width: 767px) {
+    .goals-h h2 {
+        font-size: 20px !important;
+        margin-bottom: 20px !important;
+    }
+    
+    .goals-points ul li {
+        font-size: 9px !important;
+        margin: 5px 0px !important;
+        font-weight: 500 !important;
+        padding-left: 10px !important;
+    }
+    
+    section.amazon-wholesale-goals .all-goals-section {
+        padding: 10px 10px !important;
+        margin: 20px 0px !important;
+    }
+    
+    .goals-points ul li:before {
+        height: 5px !important;
+        width: 5px !important;
+    }
+    
+    .goals-price h4 {
+        font-size: 20px !important;
+    }
+    
+    .goals-price span {
+        font-size: 12px !important;
+        font-weight: 500 !important;
+    }
+    
+    .goals-price {
+        padding: 10px 20px !important;
+        margin-bottom: 20px !important;
+    }
+    
+    .amazon-wholesale-goals1 .goals-step {
+        bottom: 10px !important;
+        right: 10px !important;
+    }
+    
+    .goals-step span {
+        font-size: 15px !important;
+        font-weight: 600 !important;
+    }
+    
+    .goals-points {
+        margin-bottom: 10px !important;
+    }
+    
+    .amazon-wholesale-goals-content-1 .goals-btn.btn-bnnr {
+        bottom: -20px !important;
+    }
+    
+    .amazon-wholesale-goals2 .goals-step {
+        bottom: 10px  !important;
+        left: 10px !important;
+    }
+    
+    section.wholesale-page2-banner.about-banner-section {
+        background-size: 250% 100% !important;
+    }
+    
+    section.amazon-wholesale-section1 {
+        padding: 30px 0px !important;
+        background-size: cover !important;
+    }
+    
+    .amazon-wholesale-h {
+        max-width: 100% !important;
+    }
+    
+    .amazon-wholesale-h .defalt-heading h1 {
+        font-size: 30px !important;
+    }
+    
+    .amazon-wholesale-h .deflt p {
+        margin: 0px !important;
+        font-size: 12px !important;
+        font-weight: 500 !important;
+    }
+    
+    section.amazon-wholesale-goals {
+        padding: 30px 0px !important;
+    }
+    
+    section.amazon-wholesale-goals .amazon-wholesale-goals-h {
+        margin: 0px !important;
+        padding: 0 !important;
+    }
+    
+    .amazon-wholesale-goals-h h2 {
+        font-size: 30px !important;
+        line-height: normal !important;
+    }
+    
+    .amazon-wholesale-goals-content-2 .goals-btn.btn-bnnr {
+        bottom: -20px !important;
+    }
+    
+    .goals-points ul {
+        margin: 0px 3px 0px 0px !important;
+    }
+    
+    .goals-btm-txt p {
+        font-size: 10px !important;
+    }
+    
+    .goals-btm-txt {
+        margin-top: 20px !important;
+    }
+    body .amazon-wholesale-goals1.all-goals-section {
+        background: linear-gradient(270deg, #000000 0%, #90D13D 100%) !important;
+    }
+    
+    body  .amazon-wholesale-goals2.all-goals-section {
+        background: linear-gradient(90deg, #000000 0%, #90D13D 100%) !important;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+    .goals-h h2 {
+        font-size: 30px !important;
+        margin-bottom: 20px !important;
+    }
+    
+    .goals-points ul li {
+        font-size: 14px !important;
+        margin: 5px 0px !important;
+        font-weight: 500 !important;
+        padding-left: 10px !important;
+    }
+    
+    section.amazon-wholesale-goals .all-goals-section {
+        padding: 30px 20px !important;
+        margin: 20px 0px !important;
+    }
+    
+    .goals-points ul li:before {
+        height: 5px !important;
+        width: 5px !important;
+    }
+    
+    .goals-price h4 {
+        font-size: 25px !important;
+    }
+    
+    .goals-price span {
+        font-size: 14px !important;
+        font-weight: 500 !important;
+    }
+    
+    .goals-price {
+        padding: 10px 20px !important;
+        margin-bottom: 20px !important;
+    }
+    
+    .amazon-wholesale-goals1 .goals-step {
+        bottom: 15px !important;
+        right: 20px !important;
+    }
+    
+    .goals-step span {
+        font-size: 20px !important;
+        font-weight: 600 !important;
+    }
+    
+    .goals-points {
+        margin-bottom: 10px !important;
+    }
+    
+    .amazon-wholesale-goals-content-1 .goals-btn.btn-bnnr {
+        bottom: -40px !important;
+    }
+    
+    .amazon-wholesale-goals2 .goals-step {
+        bottom: 15px  !important;
+        left: 20px !important;
+    }
+    
+    section.wholesale-page2-banner.about-banner-section {
+        background-size: 100% 100% !important;
+    }
+    
+    section.amazon-wholesale-section1 {
+        padding: 30px 0px !important;
+        background-size: cover !important;
+    }
+    
+    .amazon-wholesale-h {
+        max-width: 100% !important;
+    }
+    
+    .amazon-wholesale-h .defalt-heading h1 {
+        font-size: 30px !important;
+    }
+    
+    .amazon-wholesale-h .deflt p {
+        margin: 0px !important;
+        font-size: 12px !important;
+        font-weight: 500 !important;
+    }
+    
+    section.amazon-wholesale-goals {
+        padding: 30px 0px !important;
+    }
+    
+    section.amazon-wholesale-goals .amazon-wholesale-goals-h {
+        margin: 0px !important;
+        padding: 0 !important;
+    }
+    
+    .amazon-wholesale-goals-h h2 {
+        font-size: 30px !important;
+        line-height: normal !important;
+    }
+    
+    .amazon-wholesale-goals-content-2 .goals-btn.btn-bnnr {
+        bottom: -40px !important;
+    }
+    
+    .goals-points ul {
+        margin: 0px 15px 0px 0px !important;
+    }
+    
+    .goals-btm-txt p {
+        font-size: 10px !important;
+    }
+    
+    .goals-btm-txt {
+        margin-top: 20px !important;
+    }
+    .wholesale-page2-banner .abt-banner-caption .abt-text3 {
+        font-size: 30px !important;
+    }
+    
+    .abt-banner-caption .text23 {
+        font-size: 14px !important;
+    }
+    
+    .wholesale-page2-banner .btn-bnnr a.btn1-main {
+        font-size: 16px !important;
+    }
+}

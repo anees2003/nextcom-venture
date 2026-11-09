@@ -1,0 +1,223 @@
+section.our-story-page {
+    padding: 80px 0px;
+    position: relative;
+    z-index: 1;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    background-size: cover !important;
+    background-position: top right !important;
+}
+
+section.our-story-page-section1 {
+    padding-top: 80px;
+    position: relative;
+    z-index: 1;
+}
+
+section.our-story-page-section1:before {
+    content: '';
+    /* position: absolute; */
+    /* width: 92%; */
+    /* height: 55%; */
+    /* background-image: url(/images/our-story-content-bg.png); */
+    /* background-size: 100% 100% !important; */
+    /* background-size: cover !important; */
+    /* background-repeat: no-repeat !important; */
+    /* background-position: center !important; */
+    /* z-index: -1; */
+}
+
+.our-story-content .deflt-p p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+/*.our-story-content .deflt-p p span {*/
+/*    color: var(--btn-color);*/
+/*}*/
+
+.our-story-heading h4 {
+    margin: 50px 0px 30px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Poppin' !important;
+}
+
+.our-story-page-img {
+    position: relative;
+    margin: 50px 0px;
+    padding: 20px 30px;
+    background: linear-gradient(180deg, #ffffff 19%, #ff7800de 100%);
+}
+
+.why-choose {}
+
+.why-choose .defalt-heading {
+    text-align: center;
+}
+
+.why-choose .defalt-heading h2 {
+    color: #332C2C;
+    text-transform: capitalize;
+    display: block;
+    position: relative;
+    background: linear-gradient(10deg, #EFEFEF 0%, #fff 85%);
+}
+
+.why-choose .defalt-heading h2 span {
+    color: var(--btn-color);
+    font-family: 'Poppin' !important;
+    text-transform: capitalize;
+}
+
+.why-choose-all-content {}
+
+.why-choose-all-content .why-choose-single-div {
+    margin-bottom: 20px;
+}
+
+.why-choose-all-content .why-choose-single-div h4 {
+    color: #393737;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Poppin' !important;
+    padding-left: 20px;
+    position: relative;
+    margin: 10px 0px;
+    text-transform: capitalize;
+}
+
+.why-choose-all-content .why-choose-single-div h4:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 10px;
+    height: 10px;
+    background: var(--btn-color);
+}
+
+.why-choose-all-content .why-choose-single-div .deflt-p p {
+    color: #35455A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+section.our-story-page-section2 {
+    padding-bottom: 80px;
+}
+
+.our-story-page-btn.about-btn.btn-bnnr {
+    text-align: center;
+}
+
+.our-story-page-btn.about-btn.btn-bnnr a.btn1-main {
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+}
+.abt-banner-caption .text23 {
+    text-align: center !important;
+    font-size: 18px;
+}
+.our-story-img {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    section.our-story-page {
+        background-position: top left !important;
+    }
+    section.our-story-page-section1 {
+        padding-top: 30px !important;
+    }
+    .our-story-content .deflt-p p {
+        font-size: 12px !important;
+        line-height: 20px !important;
+        margin-bottom: 10px !important;
+    }
+    .our-story-img {
+        max-width: 100% !important;
+    }
+    .our-story-heading h4 {
+        margin: 30px 0px 20px !important;
+        font-size: 20px !important;
+    }
+    .why-choose .defalt-heading h2 span {
+        display: block;
+    }
+    .why-choose .defalt-heading h2 {
+        margin-top: 20px;
+    }
+    .why-choose-all-content .why-choose-single-div h4 {
+        font-size: 14px !important;
+        padding-left: 15px !important;
+    }
+    .why-choose-all-content .why-choose-single-div h4:before {
+        width: 6px !important;
+        height: 6px !important;
+    }
+    .why-choose-all-content .why-choose-single-div .deflt-p p {
+        font-size: 12px !important;
+        line-height: 20px !important;
+        margin-bottom: 15px !important;
+    }
+    .our-story-page-btn.about-btn.btn-bnnr a.btn1-main {
+        font-size: 14px !important;
+    }
+    section.our-story-page-section2 {
+        padding-bottom: 0px !important;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+    section.our-story-page {
+        /*background-position: top left !important;*/
+    }
+    section.our-story-page-section1 {
+        padding-top: 40px !important;
+    }
+    .our-story-content .deflt-p p {
+        font-size: 14px !important;
+        line-height: 22px !important;
+        margin-bottom: 10px !important;
+    }
+    .our-story-img {
+        max-width: 90% !important;
+    }
+    .our-story-heading h4 {
+        /*margin: 30px 0px 20px !important;*/
+        /*font-size: 20px !important;*/
+    }
+    .why-choose .defalt-heading h2 span {
+        /*display: block;*/
+    }
+    .why-choose .defalt-heading h2 {
+        margin-top: 20px;
+    }
+    .why-choose-all-content .why-choose-single-div h4 {
+        /*font-size: 14px !important;*/
+        /*padding-left: 15px !important;*/
+    }
+    .why-choose-all-content .why-choose-single-div h4:before {
+        /*width: 6px !important;*/
+        /*height: 6px !important;*/
+    }
+    .why-choose-all-content .why-choose-single-div .deflt-p p {
+        font-size: 14px !important;
+        line-height: 22px !important;
+        margin-bottom: 15px !important;
+    }
+    .our-story-page-btn.about-btn.btn-bnnr a.btn1-main {
+        font-size: 16px !important;
+    }
+    section.our-story-page-section2 {
+        padding-bottom: 30px !important;
+    }
+}

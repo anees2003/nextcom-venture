@@ -1,0 +1,459 @@
+.affiliate-caption-btn.amazon-fba {
+    padding-left: 0;
+    margin-top: 0px;
+}
+
+.affiliate-caption-btn.amazon-fba a.btn1-main {
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.fba-banner-section.about-banner-section {
+    padding: 80px 0px;
+}
+
+.fba-banner-section .abt-banner-caption {
+    margin: 0;
+}
+
+.fba-section1 .defalt-heading h1 {
+    margin: 0;
+    font-size: 70px;
+    color: #332C2C;
+    font-weight: 700;
+    font-family: Poppin !important;
+    margin-bottom: 30px;
+}
+
+.fba-section1 .defalt-heading h1 span {
+    font-family: Poppin !important;
+    margin-left: 10px;
+    color: var(--btn-color);
+}
+
+.fba-steps-img {
+    max-width: 90%;
+    margin: 0 auto;
+    height: 200px;
+    position: relative;
+    transition: 0.5s;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.fba-steps-img img.img-fluid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    animation: pulse 2s infinite;
+}
+
+.fba-step-all {}
+
+.fba-step-all h4 {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Poppin !important;
+    color: #fff;
+    max-width: 280px;
+    margin: 0 auto;
+    padding: 25px 60px 25px 30px;
+    margin-bottom: 20px;
+}
+
+.fba-step-all h4.fba-arrow1 {
+    background-image: url(../../images/fba-arrow2.png);
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+    background-position: center;
+}
+
+.fba-step-all h4.fba-arrow2 {
+    background-image: url(../../images/fba-arrow1.png);
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+    background-position: center;
+}
+
+.fba-step-all p {
+    color: #4F4F4F;
+    font-size: 16px;
+    font-weight: 400;
+    height: 120px;
+}
+
+.amazon-payoff {
+    background: linear-gradient(40deg, #000 25%, #3F1D00 82%, #FF7800 100%);
+    padding: 40px;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 150px;
+    margin-bottom: 180px;
+}
+
+.amazon-payoff .amazon-payoff-content h2 {
+    font-size: 45px;
+    font-family: Poppin !important;
+    color: #fff;
+}
+
+.amazon-payoff .amazon-payoff-content h2 span {
+    color: var(--btn-color);
+    font-family: Poppin !important;
+}
+
+.amazon-payoff .amazon-payoff-content p {
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 500;
+    height: 140px;
+}
+
+.amazon-payoff .amazon-payoff-img {
+    position: absolute;
+    bottom: -65px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 67%;
+}
+.fba-brand-hunting.fba-brand, .fba-order-management.fba-order {
+    position: relative;
+    z-index: 1;
+    padding: 50px 0px;
+    background: linear-gradient(130deg, #EFEFEF 0%, #fff 80%);
+}
+
+.affiliate-all-txt h2 span {
+    font-family: 'Poppin' !important;
+    color: var(--btn-color);
+}
+
+.fba-product-listing.fba-product, .fba-account-management.fba-account {
+    position: relative;
+    z-index: 1;
+    padding: 50px 0px;
+    background: linear-gradient(130deg, #fff 0%, #EFEFEF 80%);
+}
+
+.fba-order-management.fba-order {}
+
+.fba-account-management.fba-account {}
+
+.fba-packages-have.fba-packages {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+
+
+section.fba-business-setup {
+    padding: 80px 0px;
+    position: relative;
+    background: linear-gradient(0deg, #000 0%, #F27302 50%, #000000 100%);
+    z-index: 1;
+}
+.business-setup-fba-div h4 {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Poppin' !important;
+    color: var(--btn-color);
+    margin-bottom: 50px;
+}
+.business-setup-fba-div ul {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.business-setup-fba-div ul li {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 15px 0px;
+}
+.business-setup-fba-div ul li a {}
+.business-setup-fba-div {
+    position: relative;
+    z-index: 1;
+}
+.business-setup-fba-div.business-fba-center-div:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -80px;
+    width: 30px;
+    background-image: url(../../images/line-affiliate.png);
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+.business-setup-fba-div.business-fba-center-div:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 30px;
+    width: 30px;
+    background-image: url(../../images/line-affiliate.png);
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+.business-profit-fba-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    position: relative;
+    z-index: 1;
+}
+.single-profit-div {
+    width: 33.3%;
+    text-align: center;
+}
+.single-profit-div .profit-split {
+    margin-bottom: 50px;
+}
+.single-profit-div .profit-split span {
+    background: #E66D24;
+    padding: 10px 20px;
+    display: inline-block;
+    position: relative;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppin' !important;
+    width: 185px;
+}
+.single-profit-div .profit-billed {
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Poppin' !important;
+    margin-bottom: 70px;
+}
+.single-profit-div .profit-billed h3 {
+    font-size: 35px;
+    font-weight: 700;
+}
+.single-profit-div .profit-billed span {
+    font-size: 16px;
+    font-weight: 500;
+}
+.single-profit-div .profit-btn {}
+.single-profit-div .profit-btn a {
+    color: #fff;
+    background: var(--btn-color);
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppin' !important;
+}
+.business-profit-fba-div:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 87%;
+    border: 2px solid #fff;
+    z-index: -1;
+    border-radius: 30px;
+}
+.profit-other-text {}
+.profit-other-text p {
+    margin: 0;
+    color: #bbb;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+.abt-banner-caption .text23 {
+    font-size: 16px;
+    margin: 50px 0px;
+}
+
+.abt-banner-caption .abt-text3 {
+    font-size: 60px;
+}
+
+.abt-banner-caption .abt-text3 span {
+    color: var(--btn-color);
+}
+
+section.fba-business-setup .row {
+    /* max-width: 80%; */
+    /* margin: 0 auto; */
+}
+
+@media (max-width: 767px) {
+    .abt-banner-caption .text23 {
+        margin: 10px 0px !important;
+    }
+    .fba-section1 .defalt-heading h1 {
+        font-size: 24px !important;
+    }
+    .fba-step-all h4 {
+        font-size: 16px !important;
+    }
+    .fba-step-all p {
+        font-size: 12px !important;
+        height: auto !important;
+    }
+    .amazon-payoff {
+        padding-bottom: 100px !important;
+        margin-bottom: 80px !important;
+    }
+    .amazon-payoff .amazon-payoff-content p {
+        height: auto !important;
+    }
+    .amazon-payoff .amazon-payoff-img {
+        bottom: -40px !important;
+    }
+    .fba-brand-hunting.fba-brand .row, 
+    .fba-order-management.fba-order .row {
+        flex-direction: column-reverse;
+    }
+    .fba-packages-have.fba-packages {
+        padding: 30px 0px !important;
+    }
+    section.fba-business-setup {
+        padding: 30px 0px !important;
+    }
+    .business-setup-fba-div h4 {
+        font-size: 18px !important;
+        margin-bottom: 20px !important;
+        margin-top: 20px;
+    }
+    .business-setup-fba-div ul li {
+        font-size: 12px !important;
+        margin: 5px 0px !important;
+    }
+    .business-setup-fba-div.business-fba-center-div:after {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    .single-profit-div .profit-split span {
+        font-size: 10px !important;
+        width: 93px !important;
+        padding: 10px;
+        margin: 0px 5px !important;
+    }
+    .business-profit-fba-div {
+        padding: 0px 5px !important;
+        margin: 20px 0px !important;
+    }
+    .single-profit-div .profit-billed h3 {
+        font-size: 15px !important;
+    }
+    .single-profit-div .profit-billed span {
+        font-size: 10px !important;
+    }
+    .single-profit-div .profit-billed {
+        margin-bottom: 30px !important;
+    }
+    .single-profit-div .profit-split {
+        margin-bottom: 30px !important;
+    }
+    .profit-other-text p {
+        font-size: 10px !important;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+    .abt-banner-caption .text23 {
+        margin: 10px 0px !important;
+        font-size: 14px !important;
+    }
+    .fba-section1 .defalt-heading h1 {
+        font-size: 24px !important;
+    }
+    .fba-step-all h4 {
+        font-size: 16px !important;
+    }
+    .fba-step-all p {
+        font-size: 12px !important;
+        height: auto !important;
+    }
+    .amazon-payoff {
+        padding-bottom: 100px !important;
+        margin-bottom: 80px !important;
+    }
+    .amazon-payoff .amazon-payoff-content p {
+        height: 180px !IMPORTANT;
+    }
+    .amazon-payoff .amazon-payoff-img {
+        bottom: -40px !important;
+    }
+    .fba-brand-hunting.fba-brand .row, 
+    .fba-order-management.fba-order .row {
+        /*flex-direction: column-reverse;*/
+    }
+    .fba-packages-have.fba-packages {
+        padding: 30px 0px !important;
+    }
+    section.fba-business-setup {
+        padding: 30px 0px !important;
+    }
+    .business-setup-fba-div h4 {
+        font-size: 18px !important;
+        margin-bottom: 20px !important;
+        margin-top: 20px;
+    }
+    .business-setup-fba-div ul li {
+        font-size: 12px !important;
+        margin: 5px 0px !important;
+    }
+    .business-setup-fba-div.business-fba-center-div:after {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    .single-profit-div .profit-split span {
+        font-size: 10px !important;
+        width: 93px !important;
+        padding: 10px;
+        margin: 0px 5px !important;
+    }
+    .business-profit-fba-div {
+        padding: 0px 5px !important;
+        margin: 20px 0px !important;
+    }
+    .single-profit-div .profit-billed h3 {
+        font-size: 15px !important;
+    }
+    .single-profit-div .profit-billed span {
+        font-size: 10px !important;
+    }
+    .single-profit-div .profit-billed {
+        margin-bottom: 30px !important;
+    }
+    .single-profit-div .profit-split {
+        margin-bottom: 30px !important;
+    }
+    .profit-other-text p {
+        font-size: 10px !important;
+    }
+    .abt-banner-caption .abt-text3 {
+        font-size: 30px !important;
+    }
+    .affiliate-caption-btn.amazon-fba a.btn1-main {
+        font-size: 15px !important;
+    }
+    .fba-banner-section.about-banner-section {
+        background-position: center center !important;
+        background-size: 100% 100% !important;
+        padding: 30px 0px !important;
+    }
+    .fba-steps-img {
+        height: 160px !important;
+    }
+}
